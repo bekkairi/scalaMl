@@ -1,0 +1,17 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTestRecognitionAPI:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return true different size than 96 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: User mansour9 is not registred[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tcs.alti.ml.image.recognition.dao.ImageDAO$.userImage(ImageDAO.scala:49)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tcs.alti.ml.image.recognition.service.RecognitionAPI$.imageBelongToTheSamePerson(RecognitionAPI.scala:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tcs.alti.ml.image.recognition.service.TestRecognitionAPI.$anonfun$new$1(TestRecognitionAPI.scala:26)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FlatSpecLike$$anon$1.apply(FlatSpecLike.scala:1682)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return true other test different size than 96[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return false[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return true[0m[0m

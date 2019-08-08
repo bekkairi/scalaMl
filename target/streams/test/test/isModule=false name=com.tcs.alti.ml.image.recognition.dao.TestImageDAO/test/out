@@ -1,0 +1,15 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTestImageDAO:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return value *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IllegalArgumentException: User scala_test is not registred[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tcs.alti.ml.image.recognition.dao.ImageDAO$.userImage(ImageDAO.scala:49)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tcs.alti.ml.image.recognition.dao.TestImageDAO.$anonfun$new$1(TestImageDAO.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FlatSpecLike$$anon$1.apply(FlatSpecLike.scala:1682)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return an error[0m[0m

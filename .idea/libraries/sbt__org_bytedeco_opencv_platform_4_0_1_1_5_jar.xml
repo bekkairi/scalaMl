@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.bytedeco:opencv-platform:4.0.1-1.5:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.bytedeco/opencv-platform/jars/opencv-platform-4.0.1-1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.bytedeco/opencv-platform/srcs/opencv-platform-4.0.1-1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

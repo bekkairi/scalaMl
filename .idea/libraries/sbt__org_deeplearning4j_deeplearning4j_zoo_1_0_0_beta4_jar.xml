@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.deeplearning4j:deeplearning4j-zoo:1.0.0-beta4:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-zoo/jars/deeplearning4j-zoo-1.0.0-beta4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-zoo/srcs/deeplearning4j-zoo-1.0.0-beta4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
