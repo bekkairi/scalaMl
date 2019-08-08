@@ -20,7 +20,7 @@ class MlEnpointModelTest extends FunSuite with ScalatestRouteTest with MlEnpoint
   ConnectionPool.singleton(config.getString("jdbc.url"), config.getString("jdbc.username"), config.getString("jdbc.password"))
   implicit val session = AutoSession
 
-  implicit def default(implicit system: ActorSystem) = RouteTestTimeout(180.seconds)
+  implicit def default(implicit system: ActorSystem) = RouteTestTimeout(200.seconds)
 
   test("upload model") {
     sql" delete from ml_model where name='scala_test'".update().apply()

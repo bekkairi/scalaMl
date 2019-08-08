@@ -45,7 +45,7 @@ trait MlEnpointModel extends Directives with JsonSupport {
                     val mlModel = new CSVLinearRegressionModel(ids(1))
                     mlModel.loadFromFile(file.getAbsolutePath)
                     MlModelDAO.saveModel(ids(1), MlType.LINEAR_REGRESSION, mlModel)
-                    return complete(new ResultApp(ids(1)))
+                    complete(new ResultApp(ids(1)))
                   }
                 }
               }
