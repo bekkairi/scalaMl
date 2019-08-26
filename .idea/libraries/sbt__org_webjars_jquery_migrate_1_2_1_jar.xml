@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: org.webjars:jquery-migrate:1.2.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.webjars/jquery-migrate/jars/jquery-migrate-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

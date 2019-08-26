@@ -5,12 +5,15 @@ object MlType extends Enumeration {
   val LINEAR_REGRESSION = Value
 }
 
-trait MlModel[M, T, TR, TE] {
+trait MlModel[M, T, TR, TE, A] {
 
-  val miniBatchSize = 128
-  val maxEpocs = 2000
-  val learningRate = 0.01
-  val trainRatio = 0.65
+
+  val learningRateForEpocs: Int = 3000
+  val miniBatchSize = 512
+  val learningRateEpocs: Array[(Double, Int)] = computeLearningRate(7).toArray
+  val maxNumEpocs = 50000
+  val trainRatio = 0.8
+
 
   val name: String
 
@@ -22,5 +25,19 @@ trait MlModel[M, T, TR, TE] {
 
   def testEvaluation: TE
 
-  def loadFromFile(file: String)
+  def loadFromFile(file: String) = {
+
+  }
+
+  def analysis: A
+
+  def computeLearningRate(max: Int): List[(Double, Int)] = {
+
+    val first = (1 to max).toList.map(e => (math.pow(10, -e), learningRateForEpocs))
+    val second = (1 to max).toList.map(e => (5 * math.pow(10, -e), learningRateForEpocs))
+
+    return first ++ second ++ List((0.7.toDouble, learningRateForEpocs), (0.9.toDouble, learningRateForEpocs), (1.toDouble, learningRateForEpocs), (2.toDouble, learningRateForEpocs),
+      (3.toDouble, learningRateForEpocs))
+
+  }
 }

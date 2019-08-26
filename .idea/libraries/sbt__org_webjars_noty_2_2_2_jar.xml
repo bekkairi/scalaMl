@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.webjars:noty:2.2.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.webjars/noty/jars/noty-2.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.webjars/noty/srcs/noty-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

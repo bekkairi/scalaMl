@@ -1,7 +1,6 @@
 package com.tcs.alti.ml.image.recognition.api
 
-import java.io.{File, FileWriter}
-import java.nio.charset.Charset
+import java.io.{File, FileOutputStream}
 import java.util.Base64
 import java.util.UUID.randomUUID
 
@@ -12,7 +11,6 @@ import akka.stream.Materializer
 import akka.util.ByteString
 import com.tcs.alti.ml.image.recognition.dao.MlModelDAO
 import com.tcs.alti.ml.model.{CSVLinearRegressionModel, MlType}
-import org.apache.commons.io.IOUtils
 
 import scala.concurrent.{ExecutionContextExecutor, Future}
 import scala.util.{Failure, Success}
@@ -27,7 +25,9 @@ trait MlEnpointModel extends Directives with JsonSupport {
 
   implicit val decoder = Base64.getEncoder
 
-  val mlRoutes = upoload
+  val mlRoutes = withoutSizeLimit {
+    upoload
+  }
 
   def upoload: Route = {
 
@@ -40,9 +40,10 @@ trait MlEnpointModel extends Directives with JsonSupport {
                 val mlType = MlType.withName(ids(0))
                 mlType match {
                   case MlType.LINEAR_REGRESSION => {
-                    val file = File.createTempFile(randomUUID.toString, "csv")
-                    IOUtils.write(value, new FileWriter(file), Charset.defaultCharset())
-                    val mlModel = new CSVLinearRegressionModel(ids(1))
+                    val file = File.createTempFile(randomUUID.toString, ".csv")
+                    val fileOutput = new FileOutputStream(file)
+                    fileOutput.write(value.toArray)
+                    val mlModel = new CSVLinearRegressionModel(ids(1), None)
                     mlModel.loadFromFile(file.getAbsolutePath)
                     MlModelDAO.saveModel(ids(1), MlType.LINEAR_REGRESSION, mlModel)
                     complete(new ResultApp(ids(1)))
@@ -58,16 +59,14 @@ trait MlEnpointModel extends Directives with JsonSupport {
 
   }
 
-  private def processFile(fileData: Multipart.FormData): Future[Array[Byte]] = {
-
+  private def processFile(fileData: Multipart.FormData): Future[ByteString] = {
     fileData.parts.mapAsync(1) { bodyPart ⇒
-      def writeFileOnLocal(array: Array[Byte], byteString: ByteString): Array[Byte] = {
-        val byteArray: Array[Byte] = byteString.toArray
-        array ++ byteArray
+      def writeFileOnLocal(array: ByteString, byteString: ByteString): ByteString = {
+        array ++ byteString
       }
 
-      bodyPart.entity.dataBytes.runFold(Array[Byte]())(writeFileOnLocal)
+      bodyPart.entity.dataBytes.runFold(ByteString())(writeFileOnLocal)
 
-    }.runFold(Array[Byte]())((v, t) => v ++ t)
+    }.runFold(ByteString())((v, t) => v ++ t)
   }
 }

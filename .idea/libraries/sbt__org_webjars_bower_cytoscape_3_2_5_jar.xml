@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.webjars.bower:cytoscape:3.2.5:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.webjars.bower/cytoscape/jars/cytoscape-3.2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.webjars.bower/cytoscape/srcs/cytoscape-3.2.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190808094424"/>
+		date="20190820102904"/>
 	<dependencies>
 		<module organisation="org.deeplearning4j" name="deeplearning4j-zoo">
 			<revision name="1.0.0-beta4" status="release" pubdate="20190502110516" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="111">

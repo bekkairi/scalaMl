@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.webjars.npm:weaverjs:1.2.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.webjars.npm/weaverjs/jars/weaverjs-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.webjars.npm/weaverjs/srcs/weaverjs-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

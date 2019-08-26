@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.datavec:datavec-arrow:1.0.0-beta4:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-arrow/jars/datavec-arrow-1.0.0-beta4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-arrow/srcs/datavec-arrow-1.0.0-beta4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -7,8 +7,8 @@ import akka.http.scaladsl.model.{ContentTypes, Multipart, StatusCodes}
 import akka.http.scaladsl.testkit.{RouteTestTimeout, ScalatestRouteTest}
 import com.typesafe.config.{Config, ConfigFactory}
 import org.scalatest.FunSuite
-import scalikejdbc._
 import org.scalatest.Matchers._
+import scalikejdbc._
 
 import scala.concurrent.duration.DurationInt
 
@@ -22,16 +22,17 @@ class MlEnpointModelTest extends FunSuite with ScalatestRouteTest with MlEnpoint
 
   implicit def default(implicit system: ActorSystem) = RouteTestTimeout(200.seconds)
 
+
   test("upload model") {
     sql" delete from ml_model where name='scala_test'".update().apply()
-    val train = getClass.getClassLoader.getResource("model/regression/train.csv")
+    val train = getClass.getClassLoader.getResource("model/regression/computer_hardware_dataset.csv")
 
     val formData = Multipart.FormData.fromFile("file", ContentTypes.`application/octet-stream`, new File(train.getFile), 100000)
-    val ret = Post(s"/model/LINEAR_REGRESSION/scala_test", formData)  ~> mlRoutes ~> check{
-      status shouldEqual    StatusCodes.OK
+    val ret = Post(s"/model/LINEAR_REGRESSION/scala_test", formData) ~> mlRoutes ~> check {
+      status shouldEqual StatusCodes.OK
     }
 
-    println(ret)
+
   }
 
 

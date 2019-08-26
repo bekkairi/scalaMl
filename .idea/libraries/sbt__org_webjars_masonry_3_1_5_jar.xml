@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: org.webjars:masonry:3.1.5:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.webjars/masonry/jars/masonry-3.1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

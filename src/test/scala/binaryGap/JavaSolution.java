@@ -1,69 +1,86 @@
 package binaryGap;
 
-import java.util.ArrayList;
 
 public class JavaSolution {
 
     public static void main(String... args) {
-        String input = "abababa";
-        String prefix;
-        int product;
-        int maxProduct = 0;
-        for (int i = 1; i <= input.length(); i++) {
-            prefix = input.substring(0, i);
-            String substr;
-            int occurs = 0;
-            for (int j = prefix.length(); j <= input.length(); j++) {
-                substr = input.substring(0, j);
-                if (substr.endsWith(prefix))
-                    occurs++;
-            }
-            product = occurs * prefix.length();
-            System.out.println("product of " + prefix + " = " +
-                    prefix.length() + " * " + occurs + " = " + product);
-            maxProduct = (product > maxProduct) ? product : maxProduct;
-        }
-        System.out.println("maxProduct = " + maxProduct);
 
+        new JavaSolution().solution(3, 5, new int[]{2, 1, 5, 1, 2, 2, 2});
     }
 
-    public static int solution(int[] A) {
-        ArrayList<Integer> array = new ArrayList<Integer>();
-        for (int i = 1; i < A.length - 1; i++) {
-            if (A[i - 1] < A[i] && A[i + 1] < A[i]) {
-                array.add(i);
-            }
+    public int solution(int K, int M, int[] A) {
+
+        // main idea:
+        // The goal is to find the "minimal large sum"
+        // We use "binary search" to find it (so, it can be fast)
+
+        // We assume that the "min max Sum" will be
+        // between "min" and "max", ecah time we try "mid"
+
+        int minSum = 0;
+        int maxSum = 0;
+        for (int i = 0; i < A.length; i++) {
+            maxSum = maxSum + A[i];          // maxSum: sum of all elements
+            minSum = Math.max(minSum, A[i]); // minSum: at least one max element
         }
-        if (array.size() == 1 || array.size() == 0) {
-            return array.size();
-        }
-        int sf = 1;
-        int ef = array.size();
-        int result = 1;
-        while (sf <= ef) {
-            int flag = (sf + ef) / 2;
-            boolean suc = false;
-            int used = 0;
-            int mark = array.get(0);
-            for (int i = 0; i < array.size(); i++) {
-                if (array.get(i) >= mark) {
-                    used++;
-                    mark = array.get(i) + flag;
-                    if (used == flag) {
-                        suc = true;
-                        break;
-                    }
-                }
+
+        int possibleResult = maxSum; // the max one must be an "ok" result
+
+        // do "binary search" (search for better Sum)
+        while (minSum <= maxSum) {
+            // define "mid" (binary search)
+            int midSum = (minSum + maxSum) / 2;
+
+            // check if it can be divided by using
+            // the minMaxSum = "mid", into K blocks ?
+            boolean ok = checkDivisable(midSum, K, A);
+
+            // if "ok", means that we can try "smaller"
+            // otherwise ("not ok"), we have to try "bigger"
+            if (ok == true) {
+                possibleResult = midSum; // mid is "ok"
+                // we can try "smaller"
+                maxSum = midSum - 1;
+            } else { // "not ok"
+                // we have to try "bigger"
+                minSum = midSum + 1;
             }
-            if (suc) {
-                result = flag;
-                sf = flag + 1;
-            } else {
-                ef = flag - 1;
-            }
+            // go back to "binary search" until "min > max"
         }
-        return result;
+
+        return possibleResult;
     }
 
+    // check if it can be divided by using the minMaxSum = "mid", into K blocks ?
+    public boolean checkDivisable(int mid, int k, int[] a) {
+        int numBlockAllowed = k;
+        int currentBlockSum = 0;
 
+        for (int i = 0; i < a.length; i++) {
+            currentBlockSum = currentBlockSum + a[i];
+
+            if (currentBlockSum > mid) { // means: need one more block
+                numBlockAllowed--;
+                currentBlockSum = a[i]; // note: next block
+            }
+
+            if (numBlockAllowed == 0) {
+                return false; // cannot achieve minMaxSum = "mid"
+            }
+        }
+
+        // can achieve minMaxSum = "mid"
+        return true;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+

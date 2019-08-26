@@ -1,11 +1,12 @@
 package com.tcs.alti.ml.model
 
 import org.datavec.api.transform.TransformProcess
-import org.deeplearning4j.eval.RegressionEvaluation
+import org.datavec.api.transform.analysis.DataAnalysis
 import org.deeplearning4j.nn.multilayer.MultiLayerNetwork
+import org.nd4j.evaluation.regression.RegressionEvaluation
 
 
-trait LinearRegressionModel extends MlModel[MultiLayerNetwork, TransformProcess, RegressionEvaluation, RegressionEvaluation] {
+trait LinearRegressionModel extends MlModel[MultiLayerNetwork, TransformProcess, RegressionEvaluation, RegressionEvaluation, DataAnalysis] {
 
 
 }

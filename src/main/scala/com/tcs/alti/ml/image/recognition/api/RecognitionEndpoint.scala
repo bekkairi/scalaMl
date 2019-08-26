@@ -56,19 +56,6 @@ trait RecognitionEndpoint extends Directives with JsonSupport {
     }
   }
 
-  private def processFile(id: String, fileData: Multipart.FormData): Future[Array[Byte]] = {
-
-    fileData.parts.mapAsync(1) { bodyPart ⇒
-      def writeFileOnLocal(array: Array[Byte], byteString: ByteString): Array[Byte] = {
-        val byteArray: Array[Byte] = byteString.toArray
-        array ++ byteArray
-      }
-
-      bodyPart.entity.dataBytes.runFold(Array[Byte]())(writeFileOnLocal)
-
-    }.runFold(Array[Byte]())((v, t) => v ++ t)
-  }
-
   def uploadFile: Route = {
     path("user" / "createAccount" / Segments) { id => {
       (post & entity(as[Multipart.FormData])) { fileData =>
@@ -82,5 +69,18 @@ trait RecognitionEndpoint extends Directives with JsonSupport {
       }
     }
     }
+  }
+
+  private def processFile(id: String, fileData: Multipart.FormData): Future[Array[Byte]] = {
+
+    fileData.parts.mapAsync(1) { bodyPart ⇒
+      def writeFileOnLocal(array: Array[Byte], byteString: ByteString): Array[Byte] = {
+        val byteArray: Array[Byte] = byteString.toArray
+        array ++ byteArray
+      }
+
+      bodyPart.entity.dataBytes.runFold(Array[Byte]())(writeFileOnLocal)
+
+    }.runFold(Array[Byte]())((v, t) => v ++ t)
   }
 }

@@ -37,8 +37,8 @@ class TestRecognitionEndpoint extends FlatSpec with Matchers with ScalatestRoute
     ImageDAO.addUserInBase64("scala_test", Base64.getEncoder.encode(IOUtils.toByteArray(image1.openStream())))
 
 
-    val file=File.createTempFile(randomUUID().toString ,".txt")
-    val ret=Base64.getEncoder().encode(IOUtils.toByteArray(image2.openStream()))
+    val file = File.createTempFile(randomUUID().toString, ".txt")
+    val ret = Base64.getEncoder().encode(IOUtils.toByteArray(image2.openStream()))
     IOUtils.write(ret, new FileWriter(file))
 
     val formData = Multipart.FormData.fromFile("file", ContentTypes.`application/octet-stream`, file, 100000)
