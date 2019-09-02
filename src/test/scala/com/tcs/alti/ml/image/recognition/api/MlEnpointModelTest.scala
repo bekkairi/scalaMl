@@ -28,8 +28,15 @@ class MlEnpointModelTest extends FunSuite with ScalatestRouteTest with MlEnpoint
     val train = getClass.getClassLoader.getResource("model/regression/computer_hardware_dataset.csv")
 
     val formData = Multipart.FormData.fromFile("file", ContentTypes.`application/octet-stream`, new File(train.getFile), 100000)
-    val ret = Post(s"/model/LINEAR_REGRESSION/scala_test", formData) ~> mlRoutes ~> check {
+    val post = Post(s"/model/LINEAR_REGRESSION/scala_test", formData) ~> mlRoutes ~> check {
       status shouldEqual StatusCodes.OK
+    }
+
+    val get=Get(s"/model/scala_test") ~> mlRoutes ~> check {
+      status shouldEqual StatusCodes.OK
+
+      println( responseAs[String])
+      responseAs[String] should include ("org.nd4j.linalg.activations.impl.ActivationIdentity")
     }
 
 

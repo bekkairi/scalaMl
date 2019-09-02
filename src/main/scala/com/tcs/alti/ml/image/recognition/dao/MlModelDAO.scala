@@ -1,6 +1,7 @@
 package com.tcs.alti.ml.image.recognition.dao
 
-import java.io.{File, FileInputStream}
+import java.io.{ByteArrayInputStream, File, FileInputStream}
+import java.nio.file.{Files, Paths}
 import java.util.Base64
 import java.util.UUID.randomUUID
 
@@ -28,7 +29,7 @@ object MlModelDAO {
   implicit val session = AutoSession
   implicit val decoder = Base64.getEncoder
 
-  def saveModel [M, T, TR, TE, A](name: String, mlTpye: MlType, mlModel: MlModel[M, T, TR, TE, A])(implicit encoder: Base64.Encoder) = {
+  def saveModel[M, T, TR, TE, A](name: String, mlTpye: MlType, mlModel: MlModel[M, T, TR, TE, A])(implicit encoder: Base64.Encoder) = {
 
     mlModel match {
       case CSVLinearRegressionModel(model: String, fileStatsStorage: Option[FileStatsStorage]) => {
@@ -39,7 +40,7 @@ object MlModelDAO {
         ModelSerializer.writeModel(currentModel.model, zipFile, true)
 
         val stToS64 = new String(encoder.encode(IOUtils.toByteArray(new FileInputStream(zipFile))))
-        sql"insert into ml_model values (${name}, ${mlTpye.toString}, ${stToS64}, ${currentModel.trainEvaluation.toJson}, ${currentModel.testEvaluation.toJson},${currentModel.model.conf().toJson},${currentModel.model.gradient()},${currentModel.analysis.toJson},${currentModel.transformer.toJson})".update.apply()
+        sql"insert into ml_model values (${name}, ${mlTpye.toString}, ${stToS64}, ${currentModel.trainEvaluation.toJson}, ${currentModel.testEvaluation.toJson},${currentModel.model.conf().toJson},${currentModel.model.gradient().toString},${currentModel.analysis.toJson},${currentModel.transformer.toJson})".update.apply()
 
       }
 
@@ -47,44 +48,52 @@ object MlModelDAO {
 
   }
 
- /* def modelFromData(modelName: String): List[MlModel[M, T, TR, TE, A]] = {
+   def modelFromData [M, T, TR, TE, A] (modelName: String): MlModel[M, T, TR, TE, A] = {
 
 
-    val list =
+     val list =
 
-      sql" select name, type, trainevaluation,testevaluation,modelconfig,gradient,transformer where name=${modelName} from ml_model ".map(
-        rs => {
-          val modelType = rs.string(1)
+       sql" select name, type, trainevaluation,testevaluation,model,transformer,analysis  from ml_model where name=${modelName}  ".map(
+         rs => {
+           val modelType = rs.string(2)
 
-          modelType match {
-            case "LINEAR_REGRESSION" =>
-              modelFromJson(rs.string(1), rs.string(3), rs.string(4), rs.string(5), rs.string(6), rs.string(7),
-                rs.string(8))
-            case _ => throw new RuntimeException("Model not found")
-          }
-        }
-      ).list().apply()
-
-
-    return list
-  }
+           modelType match {
+             case "LINEAR_REGRESSION" =>
+               modelFromJson(rs.string("name"), rs.string("trainevaluation"), rs.string("testevaluation"), rs.string("model"), rs.string("analysis"),
+                 rs.string("transformer")).asInstanceOf[MlModel[M, T, TR, TE, A] ]
+             case _ => throw new RuntimeException("Model not found")
+           }
+         }
+       ).list().apply()
 
 
-  def modelFromJson(modelName: String, trainEvaluation: String, testEvaluation: String, modelConfig: String, gradient: String, analysis: String, transform: String): MlModel[M, T, TR, TE, A] = {
+     return list(0)
+   }
 
 
-    val linearReression = new CSVLinearRegressionModel(modelName, None)
+   def modelFromJson(modelName: String, trainEvaluation: String, testEvaluation: String, modelStream:String, analysis: String, transform: String): CSVLinearRegressionModel = {
 
-    linearReression.someModel = Some(new MultiLayerNetwork(MultiLayerConfiguration.fromJson(modelConfig)))
-    linearReression.someTrainRegressionEvaluation = Some(BaseEvaluation.fromJson(trainEvaluation, classOf[RegressionEvaluation]))
 
-    linearReression.someTestRegressionEvaluation = Some(BaseEvaluation.fromJson(testEvaluation, classOf[RegressionEvaluation]))
+     val linearReression = new CSVLinearRegressionModel(modelName, None)
 
-    linearReression.someAnalysis = Some(DataAnalysis.fromJson(analysis))
-    linearReression.someTransformer = Some(TransformProcess.fromJson(transform))
+     val byteModel= Base64.getDecoder().decode(modelStream);
 
-    linearReression.asInstanceOf[MlModel[M, T, TR, TE, A]]
-  }3*/
+     val zipFile = System.getProperty("java.io.tmpdir") + File.separator + randomUUID().toString + ".zip"
+
+
+     Files.copy(new ByteArrayInputStream(byteModel), Paths.get(zipFile));
+
+
+     linearReression.someModel = Some(ModelSerializer.restoreMultiLayerNetwork(zipFile))
+     linearReression.someTrainRegressionEvaluation = Some(BaseEvaluation.fromJson(trainEvaluation, classOf[RegressionEvaluation]))
+
+     linearReression.someTestRegressionEvaluation = Some(BaseEvaluation.fromJson(testEvaluation, classOf[RegressionEvaluation]))
+
+     linearReression.someAnalysis = Some(DataAnalysis.fromJson(analysis))
+     linearReression.someTransformer = Some(TransformProcess.fromJson(transform))
+
+     linearReression
+   }
 
 
 }

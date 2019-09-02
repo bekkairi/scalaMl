@@ -2,313 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f132aa5-66a3-4f2d-b7b5-c5e01dfd5159" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__aopalliance_aopalliance_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_beust_jcommander_1_27_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_carrotsearch_hppc_0_8_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_codepoetics_protonpack_1_15_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_classmate_1_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_6_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_6_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_6_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_6_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_6_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_5_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_6_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_5_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_6_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_5_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_findbugs_jsr305_3_0_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_inject_extensions_guice_assistedinject_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_inject_guice_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_protobuf_protobuf_java_2_6_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_11_10_1_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_persistence_experimental_2_11_2_3_16_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_11_2_5_19_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_11_2_5_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_netty_netty_http_pipelining_1_1_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_build_link_2_4_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_2_11_2_4_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_datacommons_2_11_2_4_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_exceptions_2_4_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_functional_2_11_2_4_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_iteratees_2_11_2_4_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_java_2_11_2_4_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_json_2_11_2_4_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_netty_server_2_11_2_4_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_netty_utils_2_4_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_server_2_11_2_4_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_twirl_api_2_11_1_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_lang_commons_lang_2_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_3_10_4_Final_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_buffer_4_1_22_Final_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_common_4_1_22_Final_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__javax_transaction_jta_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__javax_validation_validation_api_1_1_0_Final_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__javax_ws_rs_javax_ws_rs_api_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_jcip_jcip_annotations_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_jodah_typetools_0_5_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_jpountz_lz4_lz4_1_3_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_agrona_Agrona_0_5_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_arrow_arrow_format_0_11_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_arrow_arrow_memory_0_11_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_arrow_arrow_vector_0_11_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_tomcat_tomcat_servlet_api_8_0_21_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_datavec_datavec_arrow_1_0_0_beta4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_datavec_datavec_local_1_0_0_beta4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_deeplearning4j_deeplearning4j_nlp_1_0_0_beta4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_deeplearning4j_deeplearning4j_play_2_11_1_0_0_beta4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_deeplearning4j_deeplearning4j_ui_2_11_1_0_0_beta4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_deeplearning4j_deeplearning4j_ui_model_1_0_0_beta4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_collections_eclipse_collections_7_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_collections_eclipse_collections_api_7_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_collections_eclipse_collections_forkjoin_7_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_fusesource_leveldbjni_leveldbjni_all_1_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_hibernate_hibernate_validator_5_1_3_Final_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_iq80_leveldb_leveldb_0_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_iq80_leveldb_leveldb_api_0_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_javassist_javassist_3_19_0_GA_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jboss_logging_jboss_logging_3_2_1_Final_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jetbrains_kotlin_kotlin_runtime_1_0_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jetbrains_kotlin_kotlin_stdlib_1_0_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_mapdb_elsa_3_0_0_M5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_mapdb_mapdb_3_0_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_nd4j_nd4j_arrow_1_0_0_beta4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_reflections_reflections_0_9_9_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_stm_scala_stm_2_11_0_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_jul_to_slf4j_1_7_21_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_springframework_spring_beans_4_1_6_RELEASE_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_springframework_spring_context_4_1_6_RELEASE_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_springframework_spring_core_4_1_6_RELEASE_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_threadly_threadly_4_10_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_uncommons_maths_uncommons_maths_1_2_2a_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_bootstrap_2_3_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_bootstrap_glyphicons_bdd2cbfba0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_bootstrap_notify_3_1_3_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_bower_cytoscape_3_2_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_bower_cytoscape_dagre_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_bower_dagre_0_7_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_bower_graphlib_1_0_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_bower_lodash_3_10_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_bowergithub_stenin_nikita_open_sans_0_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_chosen_0_9_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_d3js_3_3_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_datatables_1_9_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_excanvas_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_explorercanvas_r3_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_flot_0_8_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_font_awesome_3_0_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_fullcalendar_1_6_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_imagesloaded_2_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_jquery_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_jquery_cookie_1_4_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_jquery_knob_1_2_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_jquery_migrate_1_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_jquery_raty_2_5_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_jquery_sparkline_2_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_jquery_ui_1_10_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_jquery_ui_touch_punch_0_2_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_masonry_3_1_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_modernizr_2_8_3_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_noty_2_2_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_npm_bootstrap_4_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_npm_cytoscape_3_3_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_npm_cytoscape_cola_2_3_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_npm_cytoscape_cose_bilkent_4_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_npm_cytoscape_euler_1_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_npm_cytoscape_klay_3_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_npm_cytoscape_spread_3_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_npm_dagre_0_8_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_npm_flatbuffers_1_9_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_npm_github_com_jboesch_Gritter_1_7_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_npm_graphlib_2_1_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_npm_heap_0_2_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_npm_klayjs_0_4_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_npm_lodash_4_17_15_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_npm_lodash_debounce_4_0_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_npm_weaverjs_1_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_npm_webcola_3_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_retinajs_0_0_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_uniform_2_1_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_xerial_sqlite_jdbc_3_15_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__xerces_xercesImpl_2_11_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__xml_apis_xml_apis_1_4_01_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/model/regression/computer_hardware_dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/model/regression/istanbul_stock_dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAOTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/MlModelTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_12_2_5_19_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_11_2_5_19_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_12_10_1_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_11_10_1_8_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_12_10_1_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_11_10_1_8_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_spray_json_2_12_10_1_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_spray_json_2_11_10_1_8_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_testkit_2_12_10_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_testkit_2_11_10_1_3_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_12_10_1_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_contrib_2_11_2_3_16_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_2_12_2_5_19_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_2_11_2_5_19_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_12_2_5_19_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_11_2_5_19_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_12_2_5_19_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_remote_2_11_2_3_16_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_testkit_2_12_2_5_12_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_testkit_2_11_2_5_12_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_12_2_5_12_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_2_11_2_3_16_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_12_0_3_6_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_11_0_3_6_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_spray_spray_json_2_12_1_3_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_spray_spray_json_2_11_1_3_5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_8_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_11_0_7_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_11_1_1_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_6_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_6_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_11_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_11_3_0_5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_11_3_0_5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalikejdbc_scalikejdbc_2_12_2_5_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalikejdbc_scalikejdbc_2_11_2_5_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalikejdbc_scalikejdbc_core_2_12_2_5_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalikejdbc_scalikejdbc_core_2_11_2_5_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalikejdbc_scalikejdbc_interpolation_2_12_2_5_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalikejdbc_scalikejdbc_interpolation_2_11_2_5_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalikejdbc_scalikejdbc_interpolation_macro_2_12_2_5_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalikejdbc_scalikejdbc_interpolation_macro_2_11_2_5_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_yaml_snakeyaml_1_12_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_yaml_snakeyaml_1_15_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/scalaImageRecognition-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scalaImageRecognition-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/LearnTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/scalaImageRecognition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scalaImageRecognition.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModel.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/api/RecognitionEndpoint.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/api/RecognitionEndpoint.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAO.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAO.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLinearRegressionModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLinearRegressionModel.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/LinearRegressionModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/LinearRegressionModel.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/MlModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/MlModel.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/model/regression/notes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/model/regression/notes.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/model/regression/notes_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/model/regression/notes_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/model/regression/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/model/regression/train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/binaryGap/JavaSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/binaryGap/JavaSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/binaryGap/Solution.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/binaryGap/Solution.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModelTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModelTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/TestRecognitionEndpoint.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/TestRecognitionEndpoint.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/CSVLinearRegressionModelTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/CSVLinearRegressionModelTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/HS.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/app.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/boot/BootAltiMl$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/boot/BootAltiMl$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/boot/BootAltiMl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/image/recognition/api/CORSHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/image/recognition/api/JsonSupport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/image/recognition/api/MlEnpointModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/image/recognition/api/RecognitionEndpoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/image/recognition/api/ResultApp$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/image/recognition/api/ResultApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/image/recognition/dao/ImageDAO$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/image/recognition/dao/ImageDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/image/recognition/dao/MlModelDAO$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/image/recognition/dao/MlModelDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/image/recognition/service/FaceDetectionImage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/image/recognition/service/RecognitionAPIWithTensorFlow$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/image/recognition/service/RecognitionAPIWithTensorFlow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/image/recognition/service/TensorFlowRecognitionAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/image/recognition/utils/ImageUtil$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/image/recognition/utils/ImageUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/model/CSVLinearRegressionModel$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/model/CSVLinearRegressionModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/model/LinearRegressionModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/model/MlModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/model/MlType$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/tcs/alti/ml/model/MlType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/haarcascade_frontalface_alt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/haarcascade_frontalface_default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/haarcascade_fullbody.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/haarcascade_hand.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/haarcascade_mcs_lefteye_alt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/haarcascade_mcs_righteye_alt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/haarcascade_profileface.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/haarcascade_upperbody.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/opencv_java342.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scalaimagerecognition$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scalaimagerecognition$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scalaimagerecognition$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scalaimagerecognition$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scalaimagerecognition_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scalaimagerecognition_2.12/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scalaimagerecognition_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scalaimagerecognition_2.12/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scalaimagerecognition_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/binaryGap/JavaSolution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/binaryGap/JavaSolution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/binaryGap/Solution$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/binaryGap/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/binaryGap/Solution1$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/binaryGap/Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/binaryGap/binaryGap/CountNonDivisible$test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/binaryGap/binaryGap/CountNonDivisible.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/tcs/alti/ml/image/recognition/api/MlEnpointModelTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/tcs/alti/ml/image/recognition/api/TestRecognitionEndpoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/tcs/alti/ml/image/recognition/dao/TestImageDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/tcs/alti/ml/image/recognition/service/TestRecognitionAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/tcs/alti/ml/model/CSVLinearRegressionModelTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/Aaron_Peirsol_0001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/Aaron_Peirsol_0002.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/Aaron_Peirsol_0004.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/Aaron_Peirsol_1_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/Aaron_Peirsol_2_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/Ariel_Sharon_0001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/Ariel_Sharon_0002.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/aldo1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/aldo1_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/aldo2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/aldo2_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/angelina-jolie-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/angelina-jolie-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/b7bb50ec-e2b6-43db-8f18-6da7c4b4fd09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/camera_0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/hosni_1_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/hosni_2_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/img_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/img_1017.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/img_814.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/img_822.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/mansour1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/mansour1_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/mansour2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/mansour2_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/mansour3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/mansour5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/mansour6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/obama.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/obama2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/ret10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/ret11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/images/younes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/model/regression/notes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/model/regression/notes_test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/model/regression/train.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/perf/Solution$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/perf/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAOTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAOTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/MlModelTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/MlModelTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -350,23 +55,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/MlModel.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/LearnTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+            <state relative-caret-position="102">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="6" />
+              <folding>
+                <element signature="e#47#91#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAO.scala">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModelTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-61">
-              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+            <state relative-caret-position="543">
+              <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="35" />
               <folding>
-                <element signature="e#47#85#0" expanded="true" />
+                <element signature="e#47#66#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/boot/BootAltiMl.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/app.conf">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.5-sources.jar!/org/scalatest/FunSuiteLike.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1768">
+              <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -385,10 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>json</find>
-      <find>C:\</find>
-      <find>UID</find>
-      <find>file</find>
       <find>2,</find>
       <find>SCORE</find>
       <find>score</find>
@@ -415,6 +151,10 @@
       <find>to</find>
       <find>fromJ</find>
       <find>regression</find>
+      <find>ResultApp</find>
+      <find>body</find>
+      <find>result</find>
+      <find>request-timeout</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -434,7 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/scala/learn/Comb.java" />
         <option value="$PROJECT_DIR$/src/test/scala/learn/Combinations.java" />
         <option value="$PROJECT_DIR$/src/test/scala/learn/Solution1.java" />
         <option value="$PROJECT_DIR$/src/test/scala/learn/Test.java" />
@@ -470,27 +209,28 @@
         <option value="$PROJECT_DIR$/src/test/scala/perf/Solution.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/TestRecognitionEndpoint.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/dao/TestImageDAO.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/boot/BootAltiMl.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/binaryGap/JavaSolution.java" />
         <option value="$PROJECT_DIR$/src/test/scala/binaryGap/Solution.scala" />
         <option value="$PROJECT_DIR$/src/test/resources/model/regression/computer_hardware_dataset.csv" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModelTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModel.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/MlModelTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/CSVLinearRegressionModelTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLinearRegressionModel.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/LinearRegressionModel.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAOTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAO.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAOTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/MlModel.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLinearRegressionModel.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/MlModelTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModel.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/LearnTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModelTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/boot/BootAltiMl.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+    <option name="x" value="-1613" />
+    <option name="y" value="234" />
     <option name="width" value="1440" />
     <option name="height" value="780" />
   </component>
@@ -500,6 +240,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="scalaImageRecognition" type="58d84e3e:PackageViewProjectNode" />
+              <item name="scalaImageRecognition" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="scalaImageRecognition" type="58d84e3e:PackageViewProjectNode" />
+              <item name="scalaImageRecognition" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+            </path>
+            <path>
+              <item name="scalaImageRecognition" type="58d84e3e:PackageViewProjectNode" />
+              <item name="scalaImageRecognition" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="org" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="scalaImageRecognition" type="58d84e3e:PackageViewProjectNode" />
+              <item name="scalaImageRecognition" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="org" type="1f31426a:PackageElementNode" />
+              <item name="bytedeco" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="scalaImageRecognition" type="58d84e3e:PackageViewProjectNode" />
+              <item name="scalaImageRecognition" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="org" type="1f31426a:PackageElementNode" />
+              <item name="bytedeco" type="1f31426a:PackageElementNode" />
+              <item name="javacpp" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -523,6 +300,13 @@
               <item name="scalaImageRecognition" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalaImageRecognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalaImageRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -532,6 +316,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="ml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalaImageRecognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalaImageRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="ml" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scalaImageRecognition" type="b2602c69:ProjectViewProjectNode" />
@@ -541,6 +334,16 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="ml" type="462c0819:PsiDirectoryNode" />
               <item name="recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalaImageRecognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalaImageRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="ml" type="462c0819:PsiDirectoryNode" />
+              <item name="recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scalaImageRecognition" type="b2602c69:ProjectViewProjectNode" />
@@ -551,6 +354,16 @@
               <item name="ml" type="462c0819:PsiDirectoryNode" />
               <item name="recognition" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalaImageRecognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalaImageRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="ml" type="462c0819:PsiDirectoryNode" />
+              <item name="recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scalaImageRecognition" type="b2602c69:ProjectViewProjectNode" />
@@ -684,43 +497,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="scalaImageRecognition" type="58d84e3e:PackageViewProjectNode" />
-              <item name="scalaImageRecognition" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="scalaImageRecognition" type="58d84e3e:PackageViewProjectNode" />
-              <item name="scalaImageRecognition" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-            </path>
-            <path>
-              <item name="scalaImageRecognition" type="58d84e3e:PackageViewProjectNode" />
-              <item name="scalaImageRecognition" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="org" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="scalaImageRecognition" type="58d84e3e:PackageViewProjectNode" />
-              <item name="scalaImageRecognition" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="org" type="1f31426a:PackageElementNode" />
-              <item name="bytedeco" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="scalaImageRecognition" type="58d84e3e:PackageViewProjectNode" />
-              <item name="scalaImageRecognition" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="org" type="1f31426a:PackageElementNode" />
-              <item name="bytedeco" type="1f31426a:PackageElementNode" />
-              <item name="javacpp" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -774,7 +550,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.CSVLinearRegressionModelTest.next test (2)">
+  <component name="RunManager" selected="Application.BootAltiMl">
+    <configuration name="BootAltiMl" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.tcs.alti.ml.boot.BootAltiMl" />
+      <module name="scalaImageRecognition" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=C:\apps\opencv\opencv\build\java\x64" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tcs.alti.ml.boot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution1" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="binaryGap.Solution1" />
       <module name="scalaImageRecognition" />
@@ -804,9 +594,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CSVLinearRegressionModelTest.first test (1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="LearnTest.lear (1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="scalaImageRecognition" />
-      <setting name="path" value="com.tcs.alti.ml.model.CSVLinearRegressionModelTest" />
+      <setting name="path" value="com.tcs.alti.ml.image.recognition.api.LearnTest" />
       <setting name="vmparams" value="-Djava.library.path=C:\apps\opencv\opencv\build\java\x64  -Xmx4g  -Xmx4G" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -817,15 +607,15 @@
       <setting name="jrePath" value="" />
       <envs />
       <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.tcs.alti.ml.model.CSVLinearRegressionModelTest" />
-      <setting name="testName" value="first test" />
+      <setting name="path" value="com.tcs.alti.ml.image.recognition.api.LearnTest" />
+      <setting name="testName" value="lear" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CSVLinearRegressionModelTest.first test (2)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="LearnTest.lear (2)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="scalaImageRecognition" />
-      <setting name="path" value="com.tcs.alti.ml.model.CSVLinearRegressionModelTest" />
+      <setting name="path" value="com.tcs.alti.ml.image.recognition.api.LearnTest" />
       <setting name="vmparams" value="-Djava.library.path=C:\apps\opencv\opencv\build\java\x64  -Xmx4g  -Xmx4G" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -836,15 +626,15 @@
       <setting name="jrePath" value="" />
       <envs />
       <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.tcs.alti.ml.model.CSVLinearRegressionModelTest" />
-      <setting name="testName" value="first test" />
+      <setting name="path" value="com.tcs.alti.ml.image.recognition.api.LearnTest" />
+      <setting name="testName" value="lear" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CSVLinearRegressionModelTest.first test" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="LearnTest.lear" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="scalaImageRecognition" />
-      <setting name="path" value="com.tcs.alti.ml.model.CSVLinearRegressionModelTest" />
+      <setting name="path" value="com.tcs.alti.ml.image.recognition.api.LearnTest" />
       <setting name="vmparams" value="-Djava.library.path=C:\apps\opencv\opencv\build\java\x64  -Xmx4g  -Xmx4G" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -855,15 +645,15 @@
       <setting name="jrePath" value="" />
       <envs />
       <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.tcs.alti.ml.model.CSVLinearRegressionModelTest" />
-      <setting name="testName" value="first test" />
+      <setting name="path" value="com.tcs.alti.ml.image.recognition.api.LearnTest" />
+      <setting name="testName" value="lear" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CSVLinearRegressionModelTest.next test (1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="MlEnpointModelTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="scalaImageRecognition" />
-      <setting name="path" value="com.tcs.alti.ml.model.CSVLinearRegressionModelTest" />
+      <setting name="path" value="com.tcs.alti.ml.image.recognition.api.MlEnpointModelTest" />
       <setting name="vmparams" value="-Djava.library.path=C:\apps\opencv\opencv\build\java\x64  -Xmx4g  -Xmx4G" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -873,28 +663,8 @@
       <setting name="useUiWithSbt" value="false" />
       <setting name="jrePath" value="" />
       <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.tcs.alti.ml.model.CSVLinearRegressionModelTest" />
-      <setting name="testName" value="next test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CSVLinearRegressionModelTest.next test (2)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="scalaImageRecognition" />
-      <setting name="path" value="com.tcs.alti.ml.model.CSVLinearRegressionModelTest" />
-      <setting name="vmparams" value="-Djava.library.path=C:\apps\opencv\opencv\build\java\x64  -Xmx4g  -Xmx4G" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.tcs.alti.ml.model.CSVLinearRegressionModelTest" />
-      <setting name="testName" value="next test" />
+      <setting name="testKind" value="Class" />
+      <setting name="path" value="com.tcs.alti.ml.image.recognition.api.MlEnpointModelTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -935,19 +705,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution1" />
-      <item itemvalue="ScalaTest.CSVLinearRegressionModelTest.first test" />
-      <item itemvalue="ScalaTest.CSVLinearRegressionModelTest.first test (1)" />
-      <item itemvalue="ScalaTest.CSVLinearRegressionModelTest.first test (2)" />
-      <item itemvalue="ScalaTest.CSVLinearRegressionModelTest.next test (1)" />
-      <item itemvalue="ScalaTest.CSVLinearRegressionModelTest.next test (2)" />
+      <item itemvalue="Application.BootAltiMl" />
+      <item itemvalue="ScalaTest.LearnTest.lear" />
+      <item itemvalue="ScalaTest.LearnTest.lear (1)" />
+      <item itemvalue="ScalaTest.LearnTest.lear (2)" />
+      <item itemvalue="ScalaTest.MlEnpointModelTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="ScalaTest.CSVLinearRegressionModelTest.next test (2)" />
-        <item itemvalue="ScalaTest.CSVLinearRegressionModelTest.next test (1)" />
-        <item itemvalue="ScalaTest.CSVLinearRegressionModelTest.first test (2)" />
-        <item itemvalue="ScalaTest.CSVLinearRegressionModelTest.first test (1)" />
-        <item itemvalue="ScalaTest.CSVLinearRegressionModelTest.first test" />
+        <item itemvalue="Application.BootAltiMl" />
+        <item itemvalue="ScalaTest.MlEnpointModelTest" />
+        <item itemvalue="ScalaTest.LearnTest.lear (2)" />
+        <item itemvalue="ScalaTest.LearnTest.lear (1)" />
+        <item itemvalue="ScalaTest.LearnTest.lear" />
       </list>
     </recent_temporary>
   </component>
@@ -1013,43 +783,50 @@
       <option name="project" value="LOCAL" />
       <updated>1566551829132</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="improve linear regression">
+      <created>1566831089112</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566831089112</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CSVLinearRegressionModelTest - 2019.08.23 at 15h 07m 59s.xml">
-      <configuration name="CSVLinearRegressionModelTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="MlEnpointModelTest_upload_model_(1) - 2019.08.28 at 15h 56m 28s.xml">
+      <configuration name="MlEnpointModelTest.upload model (1)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="CSVLinearRegressionModelTest_(1) - 2019.08.23 at 16h 25m 17s.xml">
-      <configuration name="CSVLinearRegressionModelTest (1)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="MlEnpointModelTest_upload_model_(2) - 2019.08.28 at 15h 59m 44s.xml">
+      <configuration name="MlEnpointModelTest.upload model (2)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="CSVLinearRegressionModelTest_(2) - 2019.08.26 at 09h 59m 06s.xml">
-      <configuration name="CSVLinearRegressionModelTest (2)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="MlEnpointModelTest_upload_model_(3) - 2019.08.28 at 16h 00m 53s.xml">
+      <configuration name="MlEnpointModelTest.upload model (3)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="CSVLinearRegressionModelTest_(3) - 2019.08.26 at 10h 04m 28s.xml">
-      <configuration name="CSVLinearRegressionModelTest (3)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="LearnTest_(5) - 2019.08.28 at 16h 53m 47s.xml">
+      <configuration name="LearnTest (5)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="CSVLinearRegressionModelTest_next_test - 2019.08.26 at 11h 18m 27s.xml">
-      <configuration name="CSVLinearRegressionModelTest.next test" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="LearnTest - 2019.08.28 at 16h 54m 17s.xml">
+      <configuration name="LearnTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="CSVLinearRegressionModelTest_first_test - 2019.08.26 at 11h 28m 01s.xml">
-      <configuration name="CSVLinearRegressionModelTest.first test" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="LearnTest_(2) - 2019.08.28 at 16h 57m 19s.xml">
+      <configuration name="LearnTest (2)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="CSVLinearRegressionModelTest_first_test_(1) - 2019.08.26 at 11h 50m 56s.xml">
-      <configuration name="CSVLinearRegressionModelTest.first test (1)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="LearnTest_(3) - 2019.08.28 at 16h 57m 42s.xml">
+      <configuration name="LearnTest (3)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="CSVLinearRegressionModelTest_first_test_(2) - 2019.08.26 at 11h 52m 38s.xml">
-      <configuration name="CSVLinearRegressionModelTest.first test (2)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="LearnTest_lear_(1) - 2019.08.28 at 16h 59m 47s.xml">
+      <configuration name="LearnTest.lear (1)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="CSVLinearRegressionModelTest_next_test_(1) - 2019.08.26 at 11h 54m 30s.xml">
-      <configuration name="CSVLinearRegressionModelTest.next test (1)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="LearnTest_lear_(2) - 2019.08.28 at 17h 00m 13s.xml">
+      <configuration name="LearnTest.lear (2)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="CSVLinearRegressionModelTest_next_test_(2) - 2019.08.26 at 12h 07m 46s.xml">
-      <configuration name="CSVLinearRegressionModelTest.next test (2)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="MlEnpointModelTest - 2019.08.28 at 17h 02m 41s.xml">
+      <configuration name="MlEnpointModelTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1613" y="234" width="1440" height="780" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.795424" side_tool="true" weight="0.32808024" />
@@ -1059,11 +836,11 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Learn" order="6" weight="0.3022388" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.20457605" visible="true" weight="0.16791044" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.20457605" visible="true" weight="0.29492754" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.38111112" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6876333" weight="0.3211111" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.82462686" weight="0.20111111" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6876333" visible="true" weight="0.46314102" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.82462686" weight="0.4488889" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1072,7 +849,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.40222222" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.17537314" side_tool="true" weight="0.47453955" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" visible="true" weight="0.46555555" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.46555555" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1091,12 +868,12 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Learn" order="6" weight="0.09808102" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.20457605" visible="true" weight="0.11673774" />
+      <window_info id="Learn" order="6" weight="0.3022388" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.20457605" visible="true" weight="0.21695095" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.38111112" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6876333" weight="0.3211111" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.82462686" weight="0.20111111" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6876333" visible="true" weight="0.3211111" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.82462686" weight="0.4488889" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1105,7 +882,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.40222222" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.17537314" side_tool="true" weight="0.47453955" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" visible="true" weight="0.23555556" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.46555555" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1125,11 +902,17 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAO.scala</url>
-          <line>36</line>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-1.0.0-beta4-sources.jar!/org/deeplearning4j/nn/conf/MultiLayerConfiguration.java</url>
+          <line>96</line>
           <properties />
-          <option name="timeStamp" value="468" />
+          <option name="timeStamp" value="472" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModelTest.scala</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="475" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1142,7 +925,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="ScalaTestRunConfiguration">
-        <watch expression="transformProcess.build()" language="Scala" />
+        <watch expression="responseAs[String] " language="Scala" />
       </configuration>
       <configuration name="Application">
         <watch expression="ret" language="Scala" />
@@ -1164,6 +947,36 @@
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
+        <expression-string>responseAs[String]</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>get ~ mlRoutes ~&gt; check</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>get ~ mlRoutes</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>get ~</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cSVLinearRegressionModel.toJson</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>MultiLayerConfiguration.fromJson(modelConfig)</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>transformProcess.build()</expression-string>
         <language-id>Scala</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1183,191 +996,9 @@
         <language-id>Scala</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>ret.map(e=&gt; e._2.score).sorted</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>((p.add(t)).add( c.mul(-2))).mul( 1.toDouble/l)</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>((p.add(t)).add( c.mul(-2))).mul(1/l)</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>((p.add(t)).add( c.mul(-2))).mul(1)</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>model.score()</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>((p.add(t)).add( c.mul(-2)))</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/srcs/play_2.11-2.4.8-sources.jar!/play/api/Configuration.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="991" column="4" selection-start-line="991" selection-start-column="4" selection-end-line="991" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-1.0.0-beta4-sources.jar!/org/nd4j/linalg/dataset/SplitTestAndTrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="18" />
-          <folding>
-            <element signature="e#1261#1262#0" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-1.0.0-beta4-sources.jar!/org/nd4j/linalg/dataset/DataSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="926" column="19" selection-start-line="926" selection-start-column="11" selection-end-line="926" selection-end-column="19" />
-          <folding>
-            <element signature="e#31824#31825#0" expanded="true" />
-            <element signature="e#31853#31854#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-1.0.0-beta4-sources.jar!/org/deeplearning4j/nn/conf/distribution/Distribution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/model/regression/notes.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="6" selection-end-column="6" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar!/org/datavec/api/transform/analysis/DataAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1002">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-1.0.0-beta4-sources.jar!/org/deeplearning4j/optimize/listeners/ScoreIterationListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="33" column="80" lean-forward="true" selection-start-line="33" selection-start-column="80" selection-end-line="33" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar!/scala/Option.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="111" column="6" selection-start-line="111" selection-start-column="6" selection-end-line="111" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-1.0.0-beta4-sources.jar!/org/nd4j/linalg/lossfunctions/LossFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="43" column="38" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-1.0.0-beta4-sources.jar!/org/nd4j/linalg/lossfunctions/impl/LossMSE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar!/scala/collection/SeqLike.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="596" column="6" selection-start-line="596" selection-start-column="6" selection-end-line="596" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar!/scala/concurrent/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="106" column="101" selection-start-line="106" selection-start-column="92" selection-end-line="106" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar!/scala/concurrent/duration/Duration.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="173" column="15" selection-start-line="173" selection-start-column="6" selection-end-line="173" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-1.0.0-beta4-sources.jar!/org/deeplearning4j/nn/conf/Updater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-1.0.0-beta4-sources.jar!/org/deeplearning4j/nn/api/OptimizationAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-1.0.0-beta4-sources.jar!/org/deeplearning4j/nn/conf/NeuralNetConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="941" column="57" selection-start-line="941" selection-start-column="43" selection-end-line="941" selection-end-column="57" />
-          <folding>
-            <element signature="e#46006#46007#0" expanded="true" />
-            <element signature="e#46084#46085#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-1.0.0-beta4-sources.jar!/org/nd4j/linalg/learning/regularization/Regularization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-379">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/TestRecognitionEndpoint.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-218">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.9.5-sources.jar!/org/joda/time/DateTimeFieldType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="280" column="47" selection-start-line="280" selection-start-column="36" selection-end-line="280" selection-end-column="47" />
-          <folding>
-            <element signature="e#9491#9492#0" expanded="true" />
-            <element signature="e#9530#9531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar!/org/datavec/api/transform/transform/time/DeriveColumnsFromTimeTransform.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -1420,24 +1051,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-local/srcs/datavec-local-1.0.0-beta4-sources.jar!/org/datavec/local/transforms/AnalyzeLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-664">
-          <caret line="48" column="30" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-1.0.0-beta4-sources.jar!/org/deeplearning4j/nn/gradient/Gradient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-1.0.0-beta4-sources.jar!/org/deeplearning4j/nn/conf/MultiLayerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="154" column="41" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1556,20 +1173,172 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/dao/TestImageDAO.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar!/org/datavec/api/transform/analysis/DataAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-local/srcs/datavec-local-1.0.0-beta4-sources.jar!/org/datavec/local/transforms/AnalyzeLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/service/FaceDetectionImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="51" column="92" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="51" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.google.guava/guava/srcs/guava-20.0-sources.jar!/com/google/common/io/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-186">
+          <caret line="281" column="21" selection-start-line="281" selection-start-column="21" selection-end-line="281" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-1.0.0-beta4-sources.jar!/org/deeplearning4j/util/ModelSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="365" column="60" selection-start-line="365" selection-start-column="36" selection-end-line="365" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAOTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="6" />
+          <folding>
+            <element signature="e#47#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/service/RecognitionAPIWithTensorFlow.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.3.5-sources.jar!/spray/json/ProductFormatsInstances.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/api/CorsSupport.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/api/RecognitionEndpoint.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/dao/ImageDAO.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="68">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLinearRegressionModel.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.3.5-sources.jar!/spray/json/JsonParser.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3833">
-          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        <state relative-caret-position="1299">
+          <caret line="240" column="6" selection-start-line="240" selection-start-column="6" selection-end-line="240" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.3.5-sources.jar!/spray/json/JsValue.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="51" column="65" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/MlModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/MlModelTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
-            <element signature="e#31#50#0" expanded="true" />
+            <element signature="e#31#60#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/CSVLinearRegressionModelTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <folding>
+            <element signature="e#31#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+          <folding>
+            <element signature="e#47#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar!/scala/util/DynamicVariable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.11/srcs/akka-http-testkit_2.11-10.1.3-sources.jar!/akka/http/scaladsl/testkit/RouteTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="56" column="55" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.11/srcs/akka-http-testkit_2.11-10.1.3-sources.jar!/akka/http/scaladsl/testkit/RouteTestResultComponent.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAO.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-1.0.0-beta4-sources.jar!/org/deeplearning4j/nn/conf/MultiLayerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1583,64 +1352,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/dao/TestImageDAO.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLinearRegressionModel.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="538">
+          <caret line="237" column="3" lean-forward="true" selection-start-line="237" selection-start-column="3" selection-end-line="237" selection-end-column="3" />
+          <folding>
+            <element signature="e#31#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/LearnTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#47#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.5-sources.jar!/org/scalatest/FunSuiteLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/boot/BootAltiMl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModelTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="9" selection-start-line="26" selection-start-column="3" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="543">
+          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="35" />
           <folding>
             <element signature="e#47#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/MlModelTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/CSVLinearRegressionModelTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="4" selection-end-line="8" />
-          <folding>
-            <element signature="e#31#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAOTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#47#110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAO.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-          <folding>
-            <element signature="e#47#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/MlModel.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        <state relative-caret-position="126">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>

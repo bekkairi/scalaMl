@@ -5,17 +5,22 @@ import java.util.Base64
 import java.util.UUID.randomUUID
 
 import akka.actor.ActorSystem
+import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import akka.http.scaladsl.model.{Multipart, StatusCodes}
 import akka.http.scaladsl.server.{Directives, Route}
 import akka.stream.Materializer
 import akka.util.ByteString
 import com.tcs.alti.ml.image.recognition.dao.MlModelDAO
-import com.tcs.alti.ml.model.{CSVLinearRegressionModel, MlType}
+import com.tcs.alti.ml.model.{CSVLinearRegressionModel, MlModel, MlType}
+import org.deeplearning4j.ui.storage.FileStatsStorage
+import spray.json.{DefaultJsonProtocol, JsNumber, JsObject, JsString, JsValue, JsonFormat}
 
 import scala.concurrent.{ExecutionContextExecutor, Future}
 import scala.util.{Failure, Success}
 
-trait MlEnpointModel extends Directives with JsonSupport {
+
+
+trait MlEnpointModel extends Directives  with  JsonSupport  {
 
   implicit val system: ActorSystem
 
@@ -51,6 +56,13 @@ trait MlEnpointModel extends Directives with JsonSupport {
                 }
               }
               case Failure(ex) => complete((StatusCodes.InternalServerError, s"An error occurred: ${ex.getMessage}"))
+            }
+          }
+
+        } ~ {
+          (get) {
+            complete {
+              MlModelDAO.modelFromData(ids(0)).toJson
             }
           }
 

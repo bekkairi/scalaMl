@@ -1,5 +1,7 @@
 package com.tcs.alti.ml.model
 
+import spray.json.JsValue
+
 object MlType extends Enumeration {
   type MlType = Value
   val LINEAR_REGRESSION = Value
@@ -28,6 +30,8 @@ trait MlModel[M, T, TR, TE, A] {
   def loadFromFile(file: String) = {
 
   }
+
+  def toJson:JsValue
 
   def analysis: A
 

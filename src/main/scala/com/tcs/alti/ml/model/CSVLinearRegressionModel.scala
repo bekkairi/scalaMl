@@ -26,6 +26,7 @@ import org.nd4j.linalg.dataset.DataSet
 import org.nd4j.linalg.dataset.adapter.SingletonDataSetIterator
 import org.nd4j.linalg.learning.config.Adam
 import org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction
+import spray.json.{JsObject, JsString, JsValue, JsonParser, ParserInput}
 
 import scala.collection.JavaConverters._
 import scala.io.Source
@@ -229,5 +230,11 @@ case class CSVLinearRegressionModel(override val name: String, val fileStatsStor
 
   override def model: MultiLayerNetwork = someModel.get
 
+  override def toJson :JsValue ={
+   JsObject( Map( "model"-> JsonParser(ParserInput(model.conf().toJson)).asJsObject,
+     "train" ->  JsonParser(ParserInput(trainEvaluation.toJson)).asJsObject, "test" ->  JsonParser(ParserInput(testEvaluation.toJson)).asJsObject ,
+   "analysis"->  JsonParser(ParserInput(analysis.toJson)).asJsObject))
+
+  }
 
 }
