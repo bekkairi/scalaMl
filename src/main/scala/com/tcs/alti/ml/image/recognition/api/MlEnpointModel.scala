@@ -5,22 +5,18 @@ import java.util.Base64
 import java.util.UUID.randomUUID
 
 import akka.actor.ActorSystem
-import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import akka.http.scaladsl.model.{Multipart, StatusCodes}
 import akka.http.scaladsl.server.{Directives, Route}
 import akka.stream.Materializer
 import akka.util.ByteString
 import com.tcs.alti.ml.image.recognition.dao.MlModelDAO
-import com.tcs.alti.ml.model.{CSVLinearRegressionModel, MlModel, MlType}
-import org.deeplearning4j.ui.storage.FileStatsStorage
-import spray.json.{DefaultJsonProtocol, JsNumber, JsObject, JsString, JsValue, JsonFormat}
+import com.tcs.alti.ml.model.{CSVLinearRegressionModel, MlType}
 
 import scala.concurrent.{ExecutionContextExecutor, Future}
 import scala.util.{Failure, Success}
 
 
-
-trait MlEnpointModel extends Directives  with  JsonSupport  {
+trait MlEnpointModel extends Directives with JsonSupport {
 
   implicit val system: ActorSystem
 
@@ -31,7 +27,7 @@ trait MlEnpointModel extends Directives  with  JsonSupport  {
   implicit val decoder = Base64.getEncoder
 
   val mlRoutes = withoutSizeLimit {
-    upoload
+    upoload ~ predict
   }
 
   def upoload: Route = {
@@ -70,6 +66,24 @@ trait MlEnpointModel extends Directives  with  JsonSupport  {
     }
 
   }
+
+  def predict: Route = {
+
+    path("predictModel" / Segments) {
+      ids => {
+        (post) {
+          formFields("data") {
+            test => {
+              complete {
+                MlModelDAO.modelFromData(ids(0)).predict(test)
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
 
   private def processFile(fileData: Multipart.FormData): Future[ByteString] = {
     fileData.parts.mapAsync(1) { bodyPart ⇒

@@ -1,6 +1,8 @@
 package com.tcs.alti.ml.model
 
 import java.io.File
+import java.nio.file.Files
+import java.util.UUID.randomUUID
 
 import org.datavec.api.records.reader.impl.csv.CSVRecordReader
 import org.datavec.api.records.reader.impl.transform.TransformProcessRecordReader
@@ -26,7 +28,7 @@ import org.nd4j.linalg.dataset.DataSet
 import org.nd4j.linalg.dataset.adapter.SingletonDataSetIterator
 import org.nd4j.linalg.learning.config.Adam
 import org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction
-import spray.json.{JsObject, JsString, JsValue, JsonParser, ParserInput}
+import spray.json.{JsNumber, JsObject, JsString, JsValue, JsonParser, ParserInput}
 
 import scala.collection.JavaConverters._
 import scala.io.Source
@@ -237,4 +239,24 @@ case class CSVLinearRegressionModel(override val name: String, val fileStatsStor
 
   }
 
+  override def predict(input: String): JsValue = {
+
+    val expected=input.split(delimiter).last
+    val recordReader = new CSVRecordReader(0, delimiter)
+    import org.datavec.api.split.FileSplit
+    val fileName = System.getProperty("java.io.tmpdir") + File.separator + randomUUID().toString + ".csv"
+
+    import java.io.ByteArrayInputStream
+    import java.nio.file.Paths
+    Files.copy(new ByteArrayInputStream(input.getBytes()), Paths.get(fileName))
+
+    recordReader.initialize(new FileSplit(new File(fileName)))
+
+    val transformProcessRecordReader = new TransformProcessRecordReader(recordReader, this.transformer)
+
+    val iterator = new RecordReaderDataSetIterator(transformProcessRecordReader, miniBatchSize, analysis.getSchema.numColumns()-1, analysis.getSchema.numColumns()-1, true)
+
+    JsObject ( Map( "expected" ->  JsString(expected), "predicted" ->  JsNumber(model.output(iterator).getFloat(0)) ))
+
+  }
 }

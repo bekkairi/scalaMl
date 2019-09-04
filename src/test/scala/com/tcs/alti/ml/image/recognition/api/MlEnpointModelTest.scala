@@ -3,7 +3,8 @@ package com.tcs.alti.ml.image.recognition.api
 import java.io.File
 
 import akka.actor.ActorSystem
-import akka.http.scaladsl.model.{ContentTypes, Multipart, StatusCodes}
+import akka.http.scaladsl.model.{ContentTypes, FormData, Multipart, StatusCodes}
+import akka.http.scaladsl.server.directives.DebuggingDirectives
 import akka.http.scaladsl.testkit.{RouteTestTimeout, ScalatestRouteTest}
 import com.typesafe.config.{Config, ConfigFactory}
 import org.scalatest.FunSuite
@@ -23,7 +24,7 @@ class MlEnpointModelTest extends FunSuite with ScalatestRouteTest with MlEnpoint
   implicit def default(implicit system: ActorSystem) = RouteTestTimeout(200.seconds)
 
 
-  test("upload model") {
+  test("upload model and predict") {
     sql" delete from ml_model where name='scala_test'".update().apply()
     val train = getClass.getClassLoader.getResource("model/regression/computer_hardware_dataset.csv")
 
@@ -39,8 +40,18 @@ class MlEnpointModelTest extends FunSuite with ScalatestRouteTest with MlEnpoint
       responseAs[String] should include ("org.nd4j.linalg.activations.impl.ActivationIdentity")
     }
 
+    val form=FormData("data"->"burroughs   ,b4955             ,110 ,5000 ,5000 ,142 ,8    ,64   ,120 ,124")
+
+    val predict=Post(s"/predictModel/scala_test",form) ~> mlRoutes ~> check {
+      status shouldEqual StatusCodes.OK
+
+      println( responseAs[String])
+      responseAs[String] should include ("expected")
+    }
+
 
   }
+
 
 
 }

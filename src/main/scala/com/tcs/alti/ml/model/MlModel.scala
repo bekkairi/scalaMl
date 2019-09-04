@@ -10,8 +10,8 @@ object MlType extends Enumeration {
 trait MlModel[M, T, TR, TE, A] {
 
 
-  val learningRateForEpocs: Int = 3000
-  val miniBatchSize = 512
+  val learningRateForEpocs: Int = 20000
+  val miniBatchSize = 256
   val learningRateEpocs: Array[(Double, Int)] = computeLearningRate(7).toArray
   val maxNumEpocs = 50000
   val trainRatio = 0.8
@@ -44,4 +44,5 @@ trait MlModel[M, T, TR, TE, A] {
       (3.toDouble, learningRateForEpocs))
 
   }
+  def predict(input:String):JsValue
 }

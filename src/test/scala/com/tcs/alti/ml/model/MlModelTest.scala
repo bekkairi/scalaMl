@@ -1,7 +1,7 @@
 package com.tcs.alti.ml.model
 
 import org.scalatest.FunSuite
-import spray.json.{JsonParser, ParserInput}
+import spray.json.{JsObject, JsString, JsonParser, ParserInput}
 
 class MlModelTest extends FunSuite {
 
@@ -24,6 +24,8 @@ class MlModelTest extends FunSuite {
     override val miniBatchSize: Int = 12
 
     override val toJson=  JsonParser(ParserInput("me:me ")).asJsObject
+
+    def  predict(input: String)=  JsObject ( Map( "expected" ->  JsString("ME")))
   }
 
   test ("rate"){
