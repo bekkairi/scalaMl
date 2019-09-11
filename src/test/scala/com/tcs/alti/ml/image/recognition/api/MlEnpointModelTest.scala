@@ -4,7 +4,6 @@ import java.io.File
 
 import akka.actor.ActorSystem
 import akka.http.scaladsl.model.{ContentTypes, FormData, Multipart, StatusCodes}
-import akka.http.scaladsl.server.directives.DebuggingDirectives
 import akka.http.scaladsl.testkit.{RouteTestTimeout, ScalatestRouteTest}
 import com.typesafe.config.{Config, ConfigFactory}
 import org.scalatest.FunSuite
@@ -33,25 +32,24 @@ class MlEnpointModelTest extends FunSuite with ScalatestRouteTest with MlEnpoint
       status shouldEqual StatusCodes.OK
     }
 
-    val get=Get(s"/model/scala_test") ~> mlRoutes ~> check {
+    val get = Get(s"/model/scala_test") ~> mlRoutes ~> check {
       status shouldEqual StatusCodes.OK
 
-      println( responseAs[String])
-      responseAs[String] should include ("org.nd4j.linalg.activations.impl.ActivationIdentity")
+      println(responseAs[String])
+      responseAs[String] should include("org.nd4j.linalg.activations.impl.ActivationIdentity")
     }
 
-    val form=FormData("data"->"burroughs   ,b4955             ,110 ,5000 ,5000 ,142 ,8    ,64   ,120 ,124")
+    val form = FormData("data" -> "burroughs   ,b4955             ,110 ,5000 ,5000 ,142 ,8    ,64   ,120 ,124")
 
-    val predict=Post(s"/predictModel/scala_test",form) ~> mlRoutes ~> check {
+    val predict = Post(s"/predictModel/scala_test", form) ~> mlRoutes ~> check {
       status shouldEqual StatusCodes.OK
 
-      println( responseAs[String])
-      responseAs[String] should include ("expected")
+      println(responseAs[String])
+      responseAs[String] should include("expected")
     }
 
 
   }
-
 
 
 }

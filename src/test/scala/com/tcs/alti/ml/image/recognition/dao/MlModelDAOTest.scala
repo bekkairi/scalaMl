@@ -8,7 +8,6 @@ import org.scalatest.FunSuite
 import scalikejdbc.{AutoSession, ConnectionPool, _}
 
 
-
 class MlModelDAOTest extends FunSuite {
 
   val config: Config = ConfigFactory.load("app.conf")
@@ -19,7 +18,7 @@ class MlModelDAOTest extends FunSuite {
 
   implicit val decoder = Base64.getEncoder
 
-  test (" save model and get"){
+  test(" save model and get") {
     val train = getClass.getClassLoader.getResource("model/regression/notes.csv")
     val cSVLinearRegressionModel = new CSVLinearRegressionModel("train2", None)
     cSVLinearRegressionModel.loadFromFile(train.getFile)
@@ -27,8 +26,10 @@ class MlModelDAOTest extends FunSuite {
     MlModelDAO.saveModel(cSVLinearRegressionModel.name, MlType.LINEAR_REGRESSION, cSVLinearRegressionModel)
     assert(cSVLinearRegressionModel.model.gradient().gradient().shape() sameElements Array(1, 33))
 
-    val model=MlModelDAO.modelFromData("train2")
-    assertResult("train2", "model name ") {model.name }
+    val model = MlModelDAO.modelFromData("train2")
+    assertResult("train2", "model name ") {
+      model.name
+    }
 
   }
 

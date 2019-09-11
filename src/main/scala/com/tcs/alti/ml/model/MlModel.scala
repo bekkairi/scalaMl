@@ -1,5 +1,8 @@
 package com.tcs.alti.ml.model
 
+import org.datavec.api.transform.TransformProcess
+import org.datavec.api.transform.analysis.DataAnalysis
+import org.deeplearning4j.nn.multilayer.MultiLayerNetwork
 import spray.json.JsValue
 
 object MlType extends Enumeration {
@@ -7,33 +10,31 @@ object MlType extends Enumeration {
   val LINEAR_REGRESSION = Value
 }
 
-trait MlModel[M, T, TR, TE, A] {
+trait MlModel[T] {
 
 
-  val learningRateForEpocs: Int = 20000
-  val miniBatchSize = 256
+  val learningRateForEpocs: Int = 5000
   val learningRateEpocs: Array[(Double, Int)] = computeLearningRate(7).toArray
-  val maxNumEpocs = 50000
-  val trainRatio = 0.8
+  val maxNumEpocs = 30000
 
 
   val name: String
 
-  def model: M
+  def model: MultiLayerNetwork
 
-  def trainEvaluation: TR
+  def trainEvaluation: T
 
-  def transformer: T
+  def transformer: TransformProcess
 
-  def testEvaluation: TE
+  def testEvaluation: T
 
   def loadFromFile(file: String) = {
 
   }
 
-  def toJson:JsValue
+  def toJson: JsValue
 
-  def analysis: A
+  def analysis: DataAnalysis
 
   def computeLearningRate(max: Int): List[(Double, Int)] = {
 
@@ -44,5 +45,6 @@ trait MlModel[M, T, TR, TE, A] {
       (3.toDouble, learningRateForEpocs))
 
   }
-  def predict(input:String):JsValue
+
+  def predict(input: String): JsValue
 }

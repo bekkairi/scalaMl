@@ -1,76 +1,73 @@
 package binaryGap;
 
 
+import java.util.Arrays;
+
 public class JavaSolution {
 
     public static void main(String... args) {
+        int[] A = new int[]{1, 4, 5, 8};
+        int[] B = new int[]{4, 5, 9, 10};
+        int[] C = new int[]{4, 6, 7, 10, 2};
 
-        new JavaSolution().solution(3, 5, new int[]{2, 1, 5, 1, 2, 2, 2});
+
+        new JavaSolution().solution(A, B, C);
     }
 
-    public int solution(int K, int M, int[] A) {
-
-        // main idea:
-        // The goal is to find the "minimal large sum"
-        // We use "binary search" to find it (so, it can be fast)
-
-        // We assume that the "min max Sum" will be
-        // between "min" and "max", ecah time we try "mid"
-
-        int minSum = 0;
-        int maxSum = 0;
-        for (int i = 0; i < A.length; i++) {
-            maxSum = maxSum + A[i];          // maxSum: sum of all elements
-            minSum = Math.max(minSum, A[i]); // minSum: at least one max element
+    public int solution(int[] A, int[] B, int[] C) {
+        // the main algorithm is that getting the minimal index of nails which
+        // is needed to nail every plank by using the binary search
+        int N = A.length;
+        int M = C.length;
+        // two dimension array to save the original index of array C
+        int[][] sortedNail = new int[M][2];
+        for (int i = 0; i < M; i++) {
+            sortedNail[i][0] = C[i];
+            sortedNail[i][1] = i;
         }
-
-        int possibleResult = maxSum; // the max one must be an "ok" result
-
-        // do "binary search" (search for better Sum)
-        while (minSum <= maxSum) {
-            // define "mid" (binary search)
-            int midSum = (minSum + maxSum) / 2;
-
-            // check if it can be divided by using
-            // the minMaxSum = "mid", into K blocks ?
-            boolean ok = checkDivisable(midSum, K, A);
-
-            // if "ok", means that we can try "smaller"
-            // otherwise ("not ok"), we have to try "bigger"
-            if (ok == true) {
-                possibleResult = midSum; // mid is "ok"
-                // we can try "smaller"
-                maxSum = midSum - 1;
-            } else { // "not ok"
-                // we have to try "bigger"
-                minSum = midSum + 1;
-            }
-            // go back to "binary search" until "min > max"
+        // use the lambda expression to sort two dimension array
+        Arrays.sort(sortedNail, (int x[], int y[]) -> x[0] - y[0]);
+        int result = 0;
+        for (int i = 0; i < N; i++) {//find the earlist position that can nail each plank, and the max value for all planks is the result
+            result = getMinIndex(A[i], B[i], sortedNail, result);
+            if (result == -1)
+                return -1;
         }
-
-        return possibleResult;
+        return result + 1;
     }
 
-    // check if it can be divided by using the minMaxSum = "mid", into K blocks ?
-    public boolean checkDivisable(int mid, int k, int[] a) {
-        int numBlockAllowed = k;
-        int currentBlockSum = 0;
-
-        for (int i = 0; i < a.length; i++) {
-            currentBlockSum = currentBlockSum + a[i];
-
-            if (currentBlockSum > mid) { // means: need one more block
-                numBlockAllowed--;
-                currentBlockSum = a[i]; // note: next block
-            }
-
-            if (numBlockAllowed == 0) {
-                return false; // cannot achieve minMaxSum = "mid"
+    // for each plank , we can use binary search to get the minimal index of the
+    // sorted array of nails, and we should check the candidate nails to get the
+    // minimal index of the original array of nails.
+    public int getMinIndex(int startPlank, int endPlank, int[][] nail, int preIndex) {
+        int min = 0;
+        int max = nail.length - 1;
+        int minIndex = -1;
+        while (min <= max) {
+            int mid = (min + max) / 2;
+            if (nail[mid][0] < startPlank)
+                min = mid + 1;
+            else if (nail[mid][0] > endPlank)
+                max = mid - 1;
+            else {
+                max = mid - 1;
+                minIndex = mid;
             }
         }
-
-        // can achieve minMaxSum = "mid"
-        return true;
+        if (minIndex == -1)
+            return -1;
+        int minIndexOrigin = nail[minIndex][1];
+        //find the smallest original position of nail that can nail the plank
+        for (int i = minIndex; i < nail.length; i++) {
+            if (nail[i][0] > endPlank)
+                break;
+            minIndexOrigin = Math.min(minIndexOrigin, nail[i][1]);
+            // we need the maximal index of nails to nail every plank, so the
+            // smaller index can be omitted
+            if (minIndexOrigin <= preIndex)
+                return preIndex;
+        }
+        return minIndexOrigin;
     }
 }
 

@@ -67,6 +67,17 @@ trait MlEnpointModel extends Directives with JsonSupport {
 
   }
 
+  private def processFile(fileData: Multipart.FormData): Future[ByteString] = {
+    fileData.parts.mapAsync(1) { bodyPart ⇒
+      def writeFileOnLocal(array: ByteString, byteString: ByteString): ByteString = {
+        array ++ byteString
+      }
+
+      bodyPart.entity.dataBytes.runFold(ByteString())(writeFileOnLocal)
+
+    }.runFold(ByteString())((v, t) => v ++ t)
+  }
+
   def predict: Route = {
 
     path("predictModel" / Segments) {
@@ -82,17 +93,5 @@ trait MlEnpointModel extends Directives with JsonSupport {
         }
       }
     }
-  }
-
-
-  private def processFile(fileData: Multipart.FormData): Future[ByteString] = {
-    fileData.parts.mapAsync(1) { bodyPart ⇒
-      def writeFileOnLocal(array: ByteString, byteString: ByteString): ByteString = {
-        array ++ byteString
-      }
-
-      bodyPart.entity.dataBytes.runFold(ByteString())(writeFileOnLocal)
-
-    }.runFold(ByteString())((v, t) => v ++ t)
   }
 }

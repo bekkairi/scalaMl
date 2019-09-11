@@ -2,15 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f132aa5-66a3-4f2d-b7b5-c5e01dfd5159" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLogisticRegressionModel.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVNeuralModel.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/LogisticRegressionModel.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/model/logistic/car.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/model/regression/machine.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/CSVLogisticRegressionModelTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scalaImageRecognition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scalaImageRecognition.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModel.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAO.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAO.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLinearRegressionModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLinearRegressionModel.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/LinearRegressionModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/LinearRegressionModel.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/MlModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/MlModel.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/binaryGap/JavaSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/binaryGap/JavaSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/LearnTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/LearnTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModelTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModelTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAOTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAOTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/CSVLinearRegressionModelTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/CSVLinearRegressionModelTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/MlModelTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/MlModelTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/output" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,32 +77,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/MlModel.scala">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVNeuralModel.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/LinearRegressionModel.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="8" selection-start-column="35" selection-end-line="9" />
+            <state relative-caret-position="221">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding>
-                <element signature="e#31#80#0" expanded="true" />
+                <element signature="e#31#114#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLogisticRegressionModel.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="119" column="3" lean-forward="true" selection-start-line="106" selection-start-column="2" selection-end-line="119" selection-end-column="3" />
+              <folding>
+                <element signature="e#31#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-1.0.0-beta4-sources.jar!/org/deeplearning4j/nn/multilayer/MultiLayerNetwork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+              <folding>
+                <element signature="e#18593#18594#0" expanded="true" />
+                <element signature="e#18636#18637#0" expanded="true" />
+                <element signature="e#67475#67476#0" expanded="true" />
+                <element signature="e#67506#67507#0" expanded="true" />
+                <element signature="e#124147#124148#0" expanded="true" />
+                <element signature="e#124175#124176#0" expanded="true" />
+                <element signature="e#130382#130383#0" expanded="true" />
+                <element signature="e#130415#130416#0" expanded="true" />
+                <element signature="e#130537#130538#0" expanded="true" />
+                <element signature="e#130580#130581#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-1.0.0-beta4-sources.jar!/org/deeplearning4j/nn/conf/NeuralNetConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="235" column="38" selection-start-line="235" selection-start-column="15" selection-end-line="235" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/CSVLogisticRegressionModelTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="24" column="94" selection-start-line="24" selection-start-column="94" selection-end-line="24" selection-end-column="94" />
+              <folding>
+                <element signature="e#31#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-1.0.0-beta4-sources.jar!/org/nd4j/linalg/lossfunctions/LossFunctions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-349">
+              <caret line="37" column="116" selection-start-line="37" selection-start-column="116" selection-end-line="37" selection-end-column="116" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLinearRegressionModel.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3378">
-              <caret line="258" column="4" selection-start-line="258" selection-start-column="4" selection-end-line="258" selection-end-column="4" />
+            <state relative-caret-position="334">
+              <caret line="77" column="33" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="33" />
               <folding>
                 <element signature="e#31#50#0" expanded="true" />
               </folding>
@@ -102,9 +178,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>learning</find>
-      <find>1.29746337890625E-4</find>
-      <find>0.01887066854784441</find>
       <find>9964</find>
       <find>99</find>
       <find>is 9</find>
@@ -132,6 +205,9 @@
       <find>Logger</find>
       <find>ad</find>
       <find>45</find>
+      <find>r2</find>
+      <find>pca</find>
+      <find>M</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -151,15 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/scala/learn/Combinations.java" />
-        <option value="$PROJECT_DIR$/src/test/scala/learn/Solution1.java" />
-        <option value="$PROJECT_DIR$/src/test/scala/learn/Test.java" />
-        <option value="$PROJECT_DIR$/src/test/scala/learn/Solution.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/learn/TestLearn.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/learn/TestFinalSolution.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/learn/FinalSolution.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/learn/DevMaxExp.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/learn/TestDevMaxExp.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/api/DetectFace.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/haarcascade_frontalface_alt.xml" />
         <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/service/TestDetectFace.scala" />
@@ -186,28 +253,37 @@
         <option value="$PROJECT_DIR$/src/test/scala/perf/Solution.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/TestRecognitionEndpoint.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/dao/TestImageDAO.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/binaryGap/JavaSolution.java" />
         <option value="$PROJECT_DIR$/src/test/scala/binaryGap/Solution.scala" />
         <option value="$PROJECT_DIR$/src/test/resources/model/regression/computer_hardware_dataset.csv" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/LinearRegressionModel.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAO.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAOTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/LearnTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/boot/BootAltiMl.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLinearRegressionModel.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/MlModelTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/CSVLinearRegressionModelTest.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModel.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModelTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/CSVLinearRegressionModelTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/resources/model/regression/machine.data" />
+        <option value="$PROJECT_DIR$/src/test/scala/binaryGap/JavaSolution.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/Util.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/LinearRegressionModel.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAO.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/MlModelTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/LearnTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/LogisticRegressionModel.scala" />
+        <option value="$PROJECT_DIR$/src/test/resources/model/regression/car.data" />
+        <option value="$PROJECT_DIR$/src/test/resources/model/logistic/car.data" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVUtil.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLinearRegressionModel.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/MlModel.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/CSVLogisticRegressionModelTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLogisticRegressionModel.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVNeuralModel.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2139" />
-    <option name="y" value="295" />
+    <option name="x" value="1915" />
+    <option name="y" value="135" />
     <option name="width" value="1440" />
     <option name="height" value="780" />
   </component>
@@ -376,6 +452,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalaImageRecognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalaImageRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="logistic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalaImageRecognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalaImageRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="regression" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -384,6 +478,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalaImageRecognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalaImageRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="binaryGap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scalaImageRecognition" type="b2602c69:ProjectViewProjectNode" />
@@ -482,8 +584,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.tcs.alti.ml.image.recognition.dao" />
       <recent name="com.tcs.alti.ml.model" />
+      <recent name="com.tcs.alti.ml.image.recognition.dao" />
       <recent name="com.tcs.alti.ml.image.recognition.api" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -504,6 +606,8 @@
       <recent name="com.tcs.alti.ml.image.recognition.service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\2019Coding\scalaImageRecognition\src\test\resources\model\logistic" />
+      <recent name="C:\2019Coding\scalaImageRecognition\src\test\resources\model.logistic" />
       <recent name="C:\2019Coding\scalaImageRecognition\src\test\resources\model" />
       <recent name="C:\2019Coding\scalaImageRecognition\src\test\resources" />
     </key>
@@ -520,21 +624,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BootAltiMl">
-    <configuration name="BootAltiMl" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.tcs.alti.ml.boot.BootAltiMl" />
-      <module name="scalaImageRecognition" />
-      <option name="VM_PARAMETERS" value="-Djava.library.path=C:\apps\opencv\opencv\build\java\x64" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tcs.alti.ml.boot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.CSVLogisticRegressionModelTest.first test">
     <configuration name="Solution1" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="binaryGap.Solution1" />
       <module name="scalaImageRecognition" />
@@ -564,9 +654,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MlEnpointModelTest.upload model and predict (1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="CSVLogisticRegressionModelTest.first test (2)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="scalaImageRecognition" />
-      <setting name="path" value="com.tcs.alti.ml.image.recognition.api.MlEnpointModelTest" />
+      <setting name="path" value="com.tcs.alti.ml.model.CSVLogisticRegressionModelTest" />
       <setting name="vmparams" value="-Djava.library.path=C:\apps\opencv\opencv\build\java\x64  -Xmx4g  -Xmx4G" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -577,15 +667,15 @@
       <setting name="jrePath" value="" />
       <envs />
       <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.tcs.alti.ml.image.recognition.api.MlEnpointModelTest" />
-      <setting name="testName" value="upload model and predict" />
+      <setting name="path" value="com.tcs.alti.ml.model.CSVLogisticRegressionModelTest" />
+      <setting name="testName" value="first test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MlEnpointModelTest.upload model and predict (2)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="CSVLogisticRegressionModelTest.first test (3)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="scalaImageRecognition" />
-      <setting name="path" value="com.tcs.alti.ml.image.recognition.api.MlEnpointModelTest" />
+      <setting name="path" value="com.tcs.alti.ml.model.CSVLogisticRegressionModelTest" />
       <setting name="vmparams" value="-Djava.library.path=C:\apps\opencv\opencv\build\java\x64  -Xmx4g  -Xmx4G" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -596,15 +686,15 @@
       <setting name="jrePath" value="" />
       <envs />
       <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.tcs.alti.ml.image.recognition.api.MlEnpointModelTest" />
-      <setting name="testName" value="upload model and predict" />
+      <setting name="path" value="com.tcs.alti.ml.model.CSVLogisticRegressionModelTest" />
+      <setting name="testName" value="first test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MlEnpointModelTest.upload model and predict (3)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="CSVLogisticRegressionModelTest.first test (4)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="scalaImageRecognition" />
-      <setting name="path" value="com.tcs.alti.ml.image.recognition.api.MlEnpointModelTest" />
+      <setting name="path" value="com.tcs.alti.ml.model.CSVLogisticRegressionModelTest" />
       <setting name="vmparams" value="-Djava.library.path=C:\apps\opencv\opencv\build\java\x64  -Xmx4g  -Xmx4G" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -615,15 +705,15 @@
       <setting name="jrePath" value="" />
       <envs />
       <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.tcs.alti.ml.image.recognition.api.MlEnpointModelTest" />
-      <setting name="testName" value="upload model and predict" />
+      <setting name="path" value="com.tcs.alti.ml.model.CSVLogisticRegressionModelTest" />
+      <setting name="testName" value="first test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MlEnpointModelTest.upload model and predict (4)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="CSVLogisticRegressionModelTest.first test (5)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="scalaImageRecognition" />
-      <setting name="path" value="com.tcs.alti.ml.image.recognition.api.MlEnpointModelTest" />
+      <setting name="path" value="com.tcs.alti.ml.model.CSVLogisticRegressionModelTest" />
       <setting name="vmparams" value="-Djava.library.path=C:\apps\opencv\opencv\build\java\x64  -Xmx4g  -Xmx4G" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -634,8 +724,27 @@
       <setting name="jrePath" value="" />
       <envs />
       <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.tcs.alti.ml.image.recognition.api.MlEnpointModelTest" />
-      <setting name="testName" value="upload model and predict" />
+      <setting name="path" value="com.tcs.alti.ml.model.CSVLogisticRegressionModelTest" />
+      <setting name="testName" value="first test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CSVLogisticRegressionModelTest.first test" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="scalaImageRecognition" />
+      <setting name="path" value="com.tcs.alti.ml.model.CSVLogisticRegressionModelTest" />
+      <setting name="vmparams" value="-Djava.library.path=C:\apps\opencv\opencv\build\java\x64  -Xmx4g  -Xmx4G" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.tcs.alti.ml.model.CSVLogisticRegressionModelTest" />
+      <setting name="testName" value="first test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -676,19 +785,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution1" />
-      <item itemvalue="ScalaTest.MlEnpointModelTest.upload model and predict (1)" />
-      <item itemvalue="ScalaTest.MlEnpointModelTest.upload model and predict (2)" />
-      <item itemvalue="ScalaTest.MlEnpointModelTest.upload model and predict (3)" />
-      <item itemvalue="ScalaTest.MlEnpointModelTest.upload model and predict (4)" />
-      <item itemvalue="Application.BootAltiMl" />
+      <item itemvalue="ScalaTest.CSVLogisticRegressionModelTest.first test (2)" />
+      <item itemvalue="ScalaTest.CSVLogisticRegressionModelTest.first test (3)" />
+      <item itemvalue="ScalaTest.CSVLogisticRegressionModelTest.first test (4)" />
+      <item itemvalue="ScalaTest.CSVLogisticRegressionModelTest.first test (5)" />
+      <item itemvalue="ScalaTest.CSVLogisticRegressionModelTest.first test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BootAltiMl" />
-        <item itemvalue="ScalaTest.MlEnpointModelTest.upload model and predict (4)" />
-        <item itemvalue="ScalaTest.MlEnpointModelTest.upload model and predict (3)" />
-        <item itemvalue="ScalaTest.MlEnpointModelTest.upload model and predict (2)" />
-        <item itemvalue="ScalaTest.MlEnpointModelTest.upload model and predict (1)" />
+        <item itemvalue="ScalaTest.CSVLogisticRegressionModelTest.first test" />
+        <item itemvalue="ScalaTest.CSVLogisticRegressionModelTest.first test (5)" />
+        <item itemvalue="ScalaTest.CSVLogisticRegressionModelTest.first test (4)" />
+        <item itemvalue="ScalaTest.CSVLogisticRegressionModelTest.first test (3)" />
+        <item itemvalue="ScalaTest.CSVLogisticRegressionModelTest.first test (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -768,39 +877,46 @@
       <option name="project" value="LOCAL" />
       <updated>1567430982551</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="improve linear regression">
+      <created>1567582747471</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567582747471</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MlEnpointModelTest_upload_model_and_predict_(1) - 2019.09.03 at 14h 59m 18s.xml">
-      <configuration name="MlEnpointModelTest.upload model and predict (1)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="CSVLogisticRegressionModelTest_first_test_(2) - 2019.09.09 at 15h 09m 18s.xml">
+      <configuration name="CSVLogisticRegressionModelTest.first test (2)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="MlEnpointModelTest_upload_model_and_predict_(2) - 2019.09.03 at 15h 01m 24s.xml">
-      <configuration name="MlEnpointModelTest.upload model and predict (2)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="CSVLogisticRegressionModelTest_first_test_(3) - 2019.09.09 at 15h 17m 38s.xml">
+      <configuration name="CSVLogisticRegressionModelTest.first test (3)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="MlEnpointModelTest_upload_model_and_predict_(3) - 2019.09.03 at 15h 08m 10s.xml">
-      <configuration name="MlEnpointModelTest.upload model and predict (3)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="CSVLogisticRegressionModelTest_first_test_(4) - 2019.09.09 at 16h 04m 26s.xml">
+      <configuration name="CSVLogisticRegressionModelTest.first test (4)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="MlEnpointModelTest_upload_model_and_predict_(4) - 2019.09.03 at 15h 13m 26s.xml">
-      <configuration name="MlEnpointModelTest.upload model and predict (4)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="CSVLogisticRegressionModelTest_first_test_(5) - 2019.09.10 at 11h 02m 52s.xml">
+      <configuration name="CSVLogisticRegressionModelTest.first test (5)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="MlEnpointModelTest_upload_model_and_predict_(5) - 2019.09.03 at 15h 16m 59s.xml">
-      <configuration name="MlEnpointModelTest.upload model and predict (5)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="CSVLogisticRegressionModelTest_first_test - 2019.09.10 at 11h 27m 05s.xml">
+      <configuration name="CSVLogisticRegressionModelTest.first test" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="MlEnpointModelTest_upload_model_and_predict - 2019.09.03 at 15h 22m 59s.xml">
-      <configuration name="MlEnpointModelTest.upload model and predict" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="CSVLogisticRegressionModelTest_first_test_(1) - 2019.09.10 at 11h 43m 30s.xml">
+      <configuration name="CSVLogisticRegressionModelTest.first test (1)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="MlEnpointModelTest_upload_model_and_predict_(1) - 2019.09.03 at 15h 24m 49s.xml">
-      <configuration name="MlEnpointModelTest.upload model and predict (1)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="CSVLogisticRegressionModelTest_first_test_(2) - 2019.09.10 at 11h 44m 50s.xml">
+      <configuration name="CSVLogisticRegressionModelTest.first test (2)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="MlEnpointModelTest_upload_model_and_predict_(2) - 2019.09.03 at 15h 27m 59s.xml">
-      <configuration name="MlEnpointModelTest.upload model and predict (2)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="CSVLogisticRegressionModelTest_first_test_(3) - 2019.09.10 at 12h 02m 04s.xml">
+      <configuration name="CSVLogisticRegressionModelTest.first test (3)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="MlEnpointModelTest_upload_model_and_predict_(3) - 2019.09.03 at 15h 30m 37s.xml">
-      <configuration name="MlEnpointModelTest.upload model and predict (3)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="CSVLogisticRegressionModelTest_first_test_(5) - 2019.09.10 at 14h 04m 00s.xml">
+      <configuration name="CSVLogisticRegressionModelTest.first test (5)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="MlEnpointModelTest_upload_model_and_predict_(4) - 2019.09.03 at 16h 18m 36s.xml">
-      <configuration name="MlEnpointModelTest.upload model and predict (4)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="CSVLogisticRegressionModelTest_first_test - 2019.09.10 at 15h 34m 49s.xml">
+      <configuration name="CSVLogisticRegressionModelTest.first test" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -813,11 +929,11 @@
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32995737" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Learn" order="6" weight="0.30157593" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.20457605" visible="true" weight="0.20628998" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.20457605" visible="true" weight="0.1945629" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33555555" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6876333" weight="0.2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8240938" weight="0.033333335" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.53555554" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6876333" weight="0.3188889" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8240938" weight="0.54444444" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -826,13 +942,13 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.7398721" weight="0.40222222" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.17590618" side_tool="true" weight="0.49555555" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.46444446" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.5222222" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="sbt" order="5" weight="0.23567335" />
+      <window_info anchor="right" id="sbt" order="5" weight="0.23560767" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -846,11 +962,11 @@
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32995737" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Learn" order="6" weight="0.30157593" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.20457605" visible="true" weight="0.20628998" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.20457605" visible="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33555555" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6876333" visible="true" weight="0.2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8240938" weight="0.033333335" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.53555554" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6876333" weight="0.3188889" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8240938" weight="0.54444444" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -859,13 +975,13 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.7398721" weight="0.40222222" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.17590618" side_tool="true" weight="0.49555555" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.46444446" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.5222222" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="sbt" order="5" weight="0.23567335" />
+      <window_info anchor="right" id="sbt" order="5" weight="0.23560767" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -879,11 +995,17 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLinearRegressionModel.scala</url>
-          <line>250</line>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/scala/binaryGap/JavaSolution.java</url>
+          <line>56</line>
           <properties />
-          <option name="timeStamp" value="488" />
+          <option name="timeStamp" value="497" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLogisticRegressionModel.scala</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="505" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -896,8 +1018,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="ScalaTestRunConfiguration">
-        <watch expression="(model.output(iterator).meanNumber()" language="Scala" />
-        <watch expression="currentModel.predict(list(0)._1)" language="Scala" />
+        <watch expression="testEvaluation.accuracy()" language="Scala" />
+        <watch expression="trainEvaluation.stats()" language="Scala" />
       </configuration>
       <configuration name="Application">
         <watch expression="ret" language="Scala" />
@@ -919,208 +1041,428 @@
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>(model.output(iterator).meanNumber()</expression-string>
+        <expression-string>trainEvaluation.stats()</expression-string>
         <language-id>Scala</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>currentModel.predict(list(0)._1)</expression-string>
+        <expression-string>trainEvaluation.f1()</expression-string>
         <language-id>Scala</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>currentModel.predict()</expression-string>
+        <expression-string>testEvaluation.accuracy()</expression-string>
         <language-id>Scala</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>currentModel.predict(new SingletonDataSetIterator(list(0)._1))</expression-string>
+        <expression-string>trainEvaluation.accuracy()</expression-string>
         <language-id>Scala</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>trainEvaluation</expression-string>
+        <expression-string>list(0)._1.getFeatures.shape()</expression-string>
         <language-id>Scala</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(model.output(iterator)</expression-string>
+        <expression-string>list(0)._1.getLabels.shape()</expression-string>
         <language-id>Scala</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>model.output(iterator)</expression-string>
+        <expression-string>transformProcess.build.getFinalSchema</expression-string>
         <language-id>Scala</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>iterator.reset()</expression-string>
+        <expression-string>schema.build()</expression-string>
         <language-id>Scala</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>JsNumber(model.output(iterator).getFloat(0))</expression-string>
+        <expression-string>PCA.principalComponents(PCA.covarianceMatrix(path.getFeatures)(0))</expression-string>
         <language-id>Scala</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>ids(0)</expression-string>
+        <expression-string>PCA.principalComponents(PCA.covarianceMatrix(path.getFeatures)[0])</expression-string>
         <language-id>Scala</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-1.0.0-beta4-sources.jar!/org/nd4j/linalg/api/ndarray/BaseNDArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="163" column="33" selection-start-line="163" selection-start-column="23" selection-end-line="163" selection-end-column="33" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/model/regression/computer_hardware_dataset.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="74" selection-start-line="20" selection-end-line="20" selection-end-column="74" />
         </state>
       </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-buffer/srcs/nd4j-buffer-1.0.0-beta4-sources.jar!/org/nd4j/linalg/api/buffer/DoubleBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-        </state>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-buffer/srcs/nd4j-buffer-1.0.0-beta4-sources.jar!/org/nd4j/linalg/api/buffer/BaseDataBuffer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModel.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="53" column="58" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-buffer/srcs/nd4j-buffer-1.0.0-beta4-sources.jar!/org/nd4j/linalg/api/buffer/DataBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-buffer/srcs/nd4j-buffer-1.0.0-beta4-sources.jar!/org/nd4j/linalg/api/buffer/UInt8Buffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/dao/TestImageDAO.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar!/org/datavec/api/transform/analysis/DataAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-local/srcs/datavec-local-1.0.0-beta4-sources.jar!/org/datavec/local/transforms/AnalyzeLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="22" column="54" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/service/FaceDetectionImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="51" column="92" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="51" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.google.guava/guava/srcs/guava-20.0-sources.jar!/com/google/common/io/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
-          <caret line="281" column="21" selection-start-line="281" selection-start-column="21" selection-end-line="281" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-1.0.0-beta4-sources.jar!/org/deeplearning4j/util/ModelSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="365" column="60" selection-start-line="365" selection-start-column="36" selection-end-line="365" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAOTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="356">
+          <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
           <folding>
-            <element signature="e#47#70#0" expanded="true" />
+            <element signature="e#47#86#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.3.5-sources.jar!/spray/json/ProductFormatsInstances.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/api/CorsSupport.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/dao/ImageDAO.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.3.5-sources.jar!/spray/json/JsonParser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1299">
-          <caret line="240" column="6" selection-start-line="240" selection-start-column="6" selection-end-line="240" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar!/scala/util/DynamicVariable.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.11/srcs/akka-http-testkit_2.11-10.1.3-sources.jar!/akka/http/scaladsl/testkit/RouteTestResultComponent.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.5-sources.jar!/org/scalatest/FunSuiteLike.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/boot/BootAltiMl.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+        <state relative-caret-position="85">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-1.0.0-beta4-sources.jar!/org/nd4j/linalg/api/ndarray/INDArray.java">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModelTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12461">
-          <caret line="758" column="13" selection-start-line="758" selection-start-column="13" selection-end-line="758" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#47#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar!/org/datavec/api/transform/MathOp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar!/org/datavec/api/transform/MathFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar!/org/datavec/api/transform/transform/doubletransform/DoubleMathOpTransform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="43" column="104" selection-start-line="43" selection-start-column="104" selection-end-line="43" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar!/org/datavec/api/transform/transform/doubletransform/DoubleColumnsMathOpTransform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="49" column="68" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-1.0.0-beta4-sources.jar!/org/nd4j/evaluation/regression/RegressionEvaluation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dl4j-memory-crash-dump-1567598724306_109.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1736" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-tsne/srcs/deeplearning4j-tsne-1.0.0-beta4-sources.jar!/org/deeplearning4j/plot/Tsne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="100" column="16" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/model/regression/machine.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-1.0.0-beta4-sources.jar!/org/nd4j/linalg/dimensionalityreduction/PCA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="353" column="48" selection-start-line="353" selection-start-column="29" selection-end-line="353" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/binaryGap/Solution.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/binaryGap/JavaSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-local/srcs/datavec-local-1.0.0-beta4-sources.jar!/org/datavec/local/transforms/AnalyzeLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAO.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="60" column="65" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar!/org/datavec/api/transform/DataAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/jars/datavec-api-1.0.0-beta4.jar!/org/datavec/api/transform/analysis/DataAnalysis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="208" column="58" selection-start-line="208" selection-start-column="44" selection-end-line="208" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar!/org/datavec/api/transform/analysis/DataAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/LinearRegressionModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="65" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/LearnTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="e#47#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/TestRecognitionEndpoint.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-1.0.0-beta4-sources.jar!/org/nd4j/evaluation/classification/Evaluation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="83" column="23" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/service/FaceDetectionImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/MlModelTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <folding>
+            <element signature="e#31#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/LogisticRegressionModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar!/org/datavec/api/transform/schema/Schema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="237" column="30" selection-start-line="237" selection-start-column="16" selection-end-line="237" selection-end-column="30" />
+          <folding>
+            <element signature="e#8412#8413#0" expanded="true" />
+            <element signature="e#8466#8467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar!/org/datavec/api/transform/metadata/ColumnMetaData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar!/org/datavec/api/transform/ColumnType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar!/org/datavec/api/transform/metadata/CategoricalMetaData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+          <folding>
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1564#1565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/CSVLinearRegressionModelTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="51" selection-start-line="4" selection-end-line="8" selection-end-column="51" />
+          <folding>
+            <element signature="e#31#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/model/logistic/car.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.5-sources.jar!/org/scalatest/OutcomeOf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.5-sources.jar!/org/scalatest/Transformer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.5-sources.jar!/org/scalatest/FunSuiteLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="185" column="35" selection-start-line="185" selection-start-column="35" selection-end-line="185" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar!/org/datavec/api/transform/TransformProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="97" column="18" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="18" />
+          <folding>
+            <element signature="e#7030#7031#0" expanded="true" />
+            <element signature="e#7093#7094#0" expanded="true" />
+            <element signature="e#7451#7452#0" expanded="true" />
+            <element signature="e#7511#7512#0" expanded="true" />
+            <element signature="e#30057#30058#0" expanded="true" />
+            <element signature="e#30136#30137#0" expanded="true" />
+            <element signature="e#67690#67691#0" expanded="true" />
+            <element signature="e#67747#67748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="156" column="4" selection-start-line="156" selection-start-column="4" selection-end-line="156" selection-end-column="4" />
+          <folding>
+            <element signature="e#31#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar!/scala/collection/TraversableOnce.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="197" column="6" selection-start-line="197" selection-start-column="6" selection-end-line="197" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-1.0.0-beta4-sources.jar!/org/nd4j/linalg/dataset/adapter/SingletonDataSetIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="43" />
+          <folding>
+            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-1.0.0-beta4-sources.jar!/org/nd4j/linalg/dataset/DataSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-730">
+          <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+          <folding>
+            <element signature="e#2790#2791#0" expanded="true" />
+            <element signature="e#2822#2823#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar!/org/datavec/api/transform/transform/column/ReorderColumnsTransform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/MlModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-1.0.0-beta4-sources.jar!/org/nd4j/linalg/lossfunctions/LossFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-349">
+          <caret line="37" column="116" selection-start-line="37" selection-start-column="116" selection-end-line="37" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/CSVLogisticRegressionModelTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="24" column="94" selection-start-line="24" selection-start-column="94" selection-end-line="24" selection-end-column="94" />
+          <folding>
+            <element signature="e#31#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-1.0.0-beta4-sources.jar!/org/deeplearning4j/nn/multilayer/MultiLayerNetwork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34476">
-          <caret line="2157" column="24" selection-start-line="2157" selection-start-column="24" selection-end-line="2157" selection-end-column="24" />
+        <state relative-caret-position="289">
+          <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
           <folding>
             <element signature="e#18593#18594#0" expanded="true" />
             <element signature="e#18636#18637#0" expanded="true" />
@@ -1136,232 +1478,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar!/org/datavec/api/records/reader/impl/csv/CSVRecordReader.java">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-1.0.0-beta4-sources.jar!/org/deeplearning4j/nn/conf/NeuralNetConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+        <state relative-caret-position="274">
+          <caret line="235" column="38" selection-start-line="235" selection-start-column="15" selection-end-line="235" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLogisticRegressionModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="119" column="3" lean-forward="true" selection-start-line="106" selection-start-column="2" selection-end-line="119" selection-end-column="3" />
           <folding>
-            <element signature="e#3064#3065#0" expanded="true" />
-            <element signature="e#3128#3129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/service/RecognitionAPIWithTensorFlow.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="103" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.3.5-sources.jar!/spray/json/JsValue.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="89" column="19" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/LearnTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="50" selection-start-line="4" selection-end-line="4" selection-end-column="50" />
-          <folding>
-            <element signature="e#47#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/dao/MlModelDAO.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar!/scala/collection/immutable/Map.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/srcs/akka-http-core_2.11-10.1.8-sources.jar!/akka/http/scaladsl/model/FormData.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http_2.11/srcs/akka-http_2.11-10.1.8-sources.jar!/akka/http/scaladsl/server/directives/FormFieldDirectives.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.5-sources.jar!/org/scalatest/tools/Runner.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="1350" column="14" selection-start-line="1350" selection-start-column="14" selection-end-line="1350" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http_2.11/srcs/akka-http_2.11-10.1.8-sources.jar!/akka/http/scaladsl/server/directives/PathDirectives.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.11/srcs/akka-http-testkit_2.11-10.1.3-sources.jar!/akka/http/scaladsl/testkit/TestFrameworkInterface.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="23" column="61" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.5-sources.jar!/org/scalatest/exceptions/TestFailedException.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.11/srcs/akka-http-testkit_2.11-10.1.3-sources.jar!/akka/http/scaladsl/testkit/RouteTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/app.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="196" column="23" selection-start-line="196" selection-start-column="23" selection-end-line="196" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/api/RecognitionEndpoint.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-426">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-1.0.0-beta4-sources.jar!/org/deeplearning4j/nn/conf/MultiLayerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http_2.11/srcs/akka-http_2.11-10.1.8-sources.jar!/akka/http/scaladsl/server/directives/BasicDirectives.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http_2.11/srcs/akka-http_2.11-10.1.8-sources.jar!/akka/http/scaladsl/server/Directive.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="124" column="8" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/srcs/akka-http-core_2.11-10.1.8-sources.jar!/akka/http/scaladsl/util/FastFuture.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/model/regression/istanbul_stock_dataset.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="126" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/CSVLinearRegressionModelTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="97" selection-start-line="59" selection-start-column="70" selection-end-line="59" selection-end-column="97" />
-          <folding>
-            <element signature="e#31#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/model/regression/computer_hardware_dataset.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="74" selection-start-line="20" selection-end-line="20" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModel.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
-          <folding>
-            <element signature="e#47#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/model/MlModelTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="81" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
-          <folding>
-            <element signature="e#31#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tcs/alti/ml/image/recognition/api/MlEnpointModelTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="6" />
-          <folding>
-            <element signature="e#47#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/MlModel.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/LinearRegressionModel.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="8" selection-start-column="35" selection-end-line="9" />
-          <folding>
-            <element signature="e#31#80#0" expanded="true" />
+            <element signature="e#31#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVLinearRegressionModel.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3378">
-          <caret line="258" column="4" selection-start-line="258" selection-start-column="4" selection-end-line="258" selection-end-column="4" />
+        <state relative-caret-position="334">
+          <caret line="77" column="33" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="33" />
           <folding>
             <element signature="e#31#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tcs/alti/ml/model/CSVNeuralModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#31#114#0" expanded="true" />
           </folding>
         </state>
       </provider>

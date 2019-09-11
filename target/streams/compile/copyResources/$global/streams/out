@@ -1,12 +1,13 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\app.conf,C:\2019Coding\scalaImageRecognition\target\scala-2.12\classes\app.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\haarcascade_frontalface_alt.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.12\classes\haarcascade_frontalface_alt.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\haarcascade_frontalface_default.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.12\classes\haarcascade_frontalface_default.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\haarcascade_fullbody.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.12\classes\haarcascade_fullbody.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\haarcascade_hand.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.12\classes\haarcascade_hand.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\haarcascade_mcs_lefteye_alt.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.12\classes\haarcascade_mcs_lefteye_alt.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\haarcascade_mcs_righteye_alt.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.12\classes\haarcascade_mcs_righteye_alt.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\haarcascade_profileface.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.12\classes\haarcascade_profileface.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\haarcascade_upperbody.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.12\classes\haarcascade_upperbody.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\HS.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.12\classes\HS.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\opencv_java342.dll,C:\2019Coding\scalaImageRecognition\target\scala-2.12\classes\opencv_java342.dll)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\app.conf,C:\2019Coding\scalaImageRecognition\target\scala-2.11\classes\app.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\application.conf,C:\2019Coding\scalaImageRecognition\target\scala-2.11\classes\application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\haarcascade_frontalface_alt.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.11\classes\haarcascade_frontalface_alt.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\haarcascade_frontalface_default.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.11\classes\haarcascade_frontalface_default.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\haarcascade_fullbody.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.11\classes\haarcascade_fullbody.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\haarcascade_hand.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.11\classes\haarcascade_hand.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\haarcascade_mcs_lefteye_alt.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.11\classes\haarcascade_mcs_lefteye_alt.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\haarcascade_mcs_righteye_alt.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.11\classes\haarcascade_mcs_righteye_alt.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\haarcascade_profileface.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.11\classes\haarcascade_profileface.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\haarcascade_upperbody.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.11\classes\haarcascade_upperbody.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\HS.xml,C:\2019Coding\scalaImageRecognition\target\scala-2.11\classes\HS.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\2019Coding\scalaImageRecognition\src\main\resources\opencv_java342.dll,C:\2019Coding\scalaImageRecognition\target\scala-2.11\classes\opencv_java342.dll)[0m

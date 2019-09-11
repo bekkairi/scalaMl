@@ -11,8 +11,6 @@ import com.typesafe.config.{Config, ConfigFactory}
 import org.apache.commons.compress.utils.IOUtils
 import org.datavec.api.transform.TransformProcess
 import org.datavec.api.transform.analysis.DataAnalysis
-import org.deeplearning4j.nn.conf.MultiLayerConfiguration
-import org.deeplearning4j.nn.multilayer.MultiLayerNetwork
 import org.deeplearning4j.ui.storage.FileStatsStorage
 import org.deeplearning4j.util.ModelSerializer
 import org.nd4j.evaluation.BaseEvaluation
@@ -29,7 +27,7 @@ object MlModelDAO {
   implicit val session = AutoSession
   implicit val decoder = Base64.getEncoder
 
-  def saveModel[M, T, TR, TE, A](name: String, mlTpye: MlType, mlModel: MlModel[M, T, TR, TE, A])(implicit encoder: Base64.Encoder) = {
+  def saveModel[T](name: String, mlTpye: MlType, mlModel: MlModel[T])(implicit encoder: Base64.Encoder) = {
 
     mlModel match {
       case CSVLinearRegressionModel(model: String, fileStatsStorage: Option[FileStatsStorage]) => {
@@ -48,52 +46,52 @@ object MlModelDAO {
 
   }
 
-   def modelFromData [M, T, TR, TE, A] (modelName: String): MlModel[M, T, TR, TE, A] = {
+  def modelFromData[T](modelName: String): MlModel[T] = {
 
 
-     val list =
+    val list =
 
-       sql" select name, type, trainevaluation,testevaluation,model,transformer,analysis  from ml_model where name=${modelName}  ".map(
-         rs => {
-           val modelType = rs.string(2)
+      sql" select name, type, trainevaluation,testevaluation,model,transformer,analysis  from ml_model where name=${modelName}  ".map(
+        rs => {
+          val modelType = rs.string(2)
 
-           modelType match {
-             case "LINEAR_REGRESSION" =>
-               modelFromJson(rs.string("name"), rs.string("trainevaluation"), rs.string("testevaluation"), rs.string("model"), rs.string("analysis"),
-                 rs.string("transformer")).asInstanceOf[MlModel[M, T, TR, TE, A] ]
-             case _ => throw new RuntimeException("Model not found")
-           }
-         }
-       ).list().apply()
-
-
-     return list(0)
-   }
+          modelType match {
+            case "LINEAR_REGRESSION" =>
+              modelFromJson(rs.string("name"), rs.string("trainevaluation"), rs.string("testevaluation"), rs.string("model"), rs.string("analysis"),
+                rs.string("transformer")).asInstanceOf[MlModel[T]]
+            case _ => throw new RuntimeException("Model not found")
+          }
+        }
+      ).list().apply()
 
 
-   def modelFromJson(modelName: String, trainEvaluation: String, testEvaluation: String, modelStream:String, analysis: String, transform: String): CSVLinearRegressionModel = {
+    return list(0)
+  }
 
 
-     val linearReression = new CSVLinearRegressionModel(modelName, None)
-
-     val byteModel= Base64.getDecoder().decode(modelStream);
-
-     val zipFile = System.getProperty("java.io.tmpdir") + File.separator + randomUUID().toString + ".zip"
+  def modelFromJson(modelName: String, trainEvaluation: String, testEvaluation: String, modelStream: String, analysis: String, transform: String): CSVLinearRegressionModel = {
 
 
-     Files.copy(new ByteArrayInputStream(byteModel), Paths.get(zipFile));
+    val linearReression = new CSVLinearRegressionModel(modelName, None)
+
+    val byteModel = Base64.getDecoder().decode(modelStream);
+
+    val zipFile = System.getProperty("java.io.tmpdir") + File.separator + randomUUID().toString + ".zip"
 
 
-     linearReression.someModel = Some(ModelSerializer.restoreMultiLayerNetwork(zipFile))
-     linearReression.someTrainRegressionEvaluation = Some(BaseEvaluation.fromJson(trainEvaluation, classOf[RegressionEvaluation]))
+    Files.copy(new ByteArrayInputStream(byteModel), Paths.get(zipFile));
 
-     linearReression.someTestRegressionEvaluation = Some(BaseEvaluation.fromJson(testEvaluation, classOf[RegressionEvaluation]))
 
-     linearReression.someAnalysis = Some(DataAnalysis.fromJson(analysis))
-     linearReression.someTransformer = Some(TransformProcess.fromJson(transform))
+    linearReression.someModel = Some(ModelSerializer.restoreMultiLayerNetwork(zipFile))
+    linearReression.someTrainRegressionEvaluation = Some(BaseEvaluation.fromJson(trainEvaluation, classOf[RegressionEvaluation]))
 
-     linearReression
-   }
+    linearReression.someTestRegressionEvaluation = Some(BaseEvaluation.fromJson(testEvaluation, classOf[RegressionEvaluation]))
+
+    linearReression.someAnalysis = Some(DataAnalysis.fromJson(analysis))
+    linearReression.someTransformer = Some(TransformProcess.fromJson(transform))
+
+    linearReression
+  }
 
 
 }
